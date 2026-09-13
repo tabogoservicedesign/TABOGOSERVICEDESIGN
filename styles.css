@@ -281,7 +281,7 @@ h3,
             rgba(0, 0, 0, 0.84) 38%,
             rgba(0, 0, 0, 0.3) 100%
         ),
-        url("../assets/hero.jpg");
+        url(assets/hero.jpg);
 
     background-position: center;
 
@@ -938,7 +938,7 @@ h3,
             rgba(0, 0, 0, 0.8),
             rgba(0, 0, 0, 0.45)
         ),
-        url("../assets/cta.jpg");
+        url(assets/cta.jpg);
 
     background-size: cover;
 
