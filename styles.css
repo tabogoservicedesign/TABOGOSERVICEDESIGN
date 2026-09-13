@@ -310,7 +310,7 @@ h3,
 
 
 .hero-content {
-    max-width: 590px;
+    max-width: 580px;
 }
 
 .hero-content h1 {
@@ -325,12 +325,25 @@ h3,
 
     margin-bottom: 28px;
 }
+.resalt {
+    color: var(--white);
 
-.hero-content h1 span {
-
+    background: linear-gradient(
+        to bottom,
+        transparent 15%,
+        #029AA5 16%,
+        #029AA5 75%,
+        transparent 75%
+    );
+    background-position: right;
+}
+.con {
     display: block;
-
-    color: var(--cyan);
+    width: auto;
+    color: #029AA5;
+    
+   
+    
 }
 
 .hero-content p {
@@ -1359,9 +1372,9 @@ h3,
                 rgba(0,0,0,0.92),
                 rgba(0,0,0,0.45)
             ),
-            url("assets/hero.jpg");
+            url("../assets/hero.jpg");
 
-        background-position: 65% center;
+        background-position: 80% center;
     }
 
 
@@ -1476,7 +1489,7 @@ h3,
     */
 
     .services-grid {
-
+        height: 700px;
         display: grid;
 
         grid-template-columns:
@@ -1484,7 +1497,7 @@ h3,
 
         grid-template-rows:
             175px
-            115px
+            175px
             175px
             175px;
 
@@ -1504,7 +1517,7 @@ h3,
 
         grid-column: 2;
 
-        grid-row: 1;
+        grid-row: 1/2;
     }
 
 
@@ -1512,7 +1525,7 @@ h3,
 
         grid-column: 1 / 3;
 
-        grid-row: 2;
+        grid-row: 2/3;
     }
 
 
@@ -1520,7 +1533,7 @@ h3,
 
         grid-column: 1 / 3;
 
-        grid-row: 3;
+        grid-row: 3/4;
     }
 
 
@@ -1528,7 +1541,7 @@ h3,
 
         grid-column: 1 / 3;
 
-        grid-row: 4;
+        grid-row: 4/5;
     }
 
 
@@ -1953,7 +1966,7 @@ h3,
 
         grid-template-rows:
             165px
-            110px
+            165px
             165px
             165px;
 
@@ -2005,7 +2018,22 @@ h3,
 
     background: #050708;
 }
+.servicios-hero::after {
 
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            transparent 70%,
+            #050708 100%
+        );
+
+    z-index: -1;
+}
 
 .servicios-hero-background {
 
@@ -2023,13 +2051,28 @@ h3,
             rgba(0, 0, 0, 0.25) 75%,
             rgba(0, 0, 0, 0.15) 100%
         ),
-        url("assets/servicios-hero.jpg");
+        url("../assets/servicios-hero.jpg");
 
     background-position: center;
 
     background-size: cover;
 }
+.servicios-hero-background::after {
 
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            transparent 70%,
+            #050708 100%
+        );
+
+    z-index: -1;
+}
 
 .servicios-hero-container {
 
@@ -2073,7 +2116,7 @@ h3,
 
 .servicios-hero-content h1 span {
 
-    color: #00aabd;
+    color: #029AA5;
 
 }
 
@@ -2081,8 +2124,15 @@ h3,
 .servicios-hero-content h1 strong {
 
     color: #ffffff;
-
     font-weight: 400;
+     background: linear-gradient(
+        to bottom,
+        transparent 15%,
+        #029AA5 16%,
+        #029AA5 75%,
+        transparent 75%
+    );
+    background-position: right;
 }
 
 
@@ -2733,7 +2783,7 @@ h3,
             rgba(0, 0, 0, 0.82),
             rgba(0, 0, 0, 0.35)
         ),
-        url("assets/cta.jpg");
+        url("../assets/cta.jpg");
 
     background-position: center;
 
@@ -2991,7 +3041,7 @@ h3,
                 rgba(0, 0, 0, 0.94),
                 rgba(0, 0, 0, 0.48)
             ),
-            url("assets/servicios-hero.jpg");
+            url("../assets/servicios-hero.jpg");
 
         background-position: 65% center;
     }
@@ -3563,13 +3613,28 @@ h3,
             rgba(0, 0, 0, 0.35) 65%,
             rgba(0, 0, 0, 0.15) 100%
         ),
-        url("assets/proyectos-hero.jpg");
+        url("../assets/proyectos-hero.jpg");
 
     background-position: center;
 
     background-size: cover;
 }
+.proyectos-hero-background::after {
 
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            transparent 70%,
+            #050708 100%
+        );
+
+    z-index: -1;
+}
 
 .proyectos-hero-container {
 
@@ -3629,7 +3694,15 @@ h3,
 
 .proyectos-hero-content h1 span {
 
-    color: #00aabd;
+    color: var(--white);
+     background: linear-gradient(
+        to bottom,
+        transparent 17%,
+        #029AA5 15%,
+        #029AA5 75%,
+        transparent 75%
+    );
+    background-position: center;
 }
 
 
@@ -3999,7 +4072,7 @@ h3,
             rgba(0, 0, 0, 0.82) 35%,
             rgba(0, 0, 0, 0.25) 100%
         ),
-        url("assets/proyectos-cta.jpg");
+        url("../assets/proyectos-cta.jpg");
 
     background-position: center;
 
@@ -4109,7 +4182,7 @@ h3,
             rgba(0, 0, 0, 0.88),
             rgba(0, 0, 0, 0.62)
         ),
-        url("assets/proyectos-impacto.jpg");
+        url("../assets/proyectos-impacto.jpg");
 
     background-position: center;
 
@@ -4402,7 +4475,7 @@ h3,
                 rgba(0, 0, 0, 0.95),
                 rgba(0, 0, 0, 0.45)
             ),
-            url("assets/proyectos-hero.jpg");
+            url("../assets/proyectos-hero.jpg");
 
         background-position: 67% center;
     }
@@ -4850,6 +4923,8 @@ h3,
 }
 
 
+
+
 .contacto-principal-container {
 
     display: grid;
@@ -4858,7 +4933,7 @@ h3,
 
     align-items: center;
 
-    gap: 55px;
+    gap: 150px;
 }
 
 
@@ -4890,7 +4965,7 @@ h3,
 
 
 .contacto-introduccion h1 {
-
+    width: 700px;
     font-family: "Bebas Neue", sans-serif;
 
     font-size: clamp(
@@ -4906,17 +4981,17 @@ h3,
     margin-bottom: 25px;
 }
 
-
-.contacto-introduccion h1 span {
-
-    display: inline;
-
-    color: #ffffff;
-
-    background: #00aabd;
-
-    padding: 0 7px;
+.resaltproyect {
+     background: linear-gradient(
+        to bottom,
+        transparent 17%,
+        #029AA5 15%,
+        #029AA5 75%,
+        transparent 75%
+    );
+    background-position: center;
 }
+
 
 
 .contacto-introduccion p {
@@ -5182,7 +5257,7 @@ h3,
             rgba(0, 0, 0, 0.45) 57%,
             rgba(0, 0, 0, 0.20) 100%
         ),
-        url("assets/contacto-mapa.jpg");
+        url("../assets/contacto-mapa.jpg");
 
     background-size: cover;
 
@@ -5297,7 +5372,7 @@ h3,
             rgba(0, 0, 0, 0.87),
             rgba(0, 0, 0, 0.62)
         ),
-        url("assets/contacto-cta.jpg");
+        url("../assets/contacto-cta.jpg");
 
     background-size: cover;
 
@@ -5611,7 +5686,7 @@ h3,
                 rgba(0, 0, 0, 0.96),
                 rgba(0, 0, 0, 0.60)
             ),
-            url("assets/contacto-mapa.jpg");
+            url("../assets/contacto-mapa.jpg");
 
         background-position: 60% center;
     }
@@ -5832,7 +5907,14 @@ h3,
     padding: 0 8px;
 
     color: #ffffff;
-    background: #00aabd;
+     background: linear-gradient(
+        to bottom,
+        transparent 17%,
+        #029AA5 15%,
+        #029AA5 75%,
+        transparent 75%
+    );
+    background-position: center;
 }
 
 
