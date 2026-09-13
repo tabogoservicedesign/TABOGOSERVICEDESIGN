@@ -1359,7 +1359,7 @@ h3,
                 rgba(0,0,0,0.92),
                 rgba(0,0,0,0.45)
             ),
-            url("../assets/hero.jpg");
+            url("assets/hero.jpg");
 
         background-position: 65% center;
     }
@@ -2023,7 +2023,7 @@ h3,
             rgba(0, 0, 0, 0.25) 75%,
             rgba(0, 0, 0, 0.15) 100%
         ),
-        url("../assets/servicios-hero.jpg");
+        url("assets/servicios-hero.jpg");
 
     background-position: center;
 
@@ -2733,7 +2733,7 @@ h3,
             rgba(0, 0, 0, 0.82),
             rgba(0, 0, 0, 0.35)
         ),
-        url("../assets/cta.jpg");
+        url("assets/cta.jpg");
 
     background-position: center;
 
@@ -2991,7 +2991,7 @@ h3,
                 rgba(0, 0, 0, 0.94),
                 rgba(0, 0, 0, 0.48)
             ),
-            url("../assets/servicios-hero.jpg");
+            url("assets/servicios-hero.jpg");
 
         background-position: 65% center;
     }
@@ -3563,7 +3563,7 @@ h3,
             rgba(0, 0, 0, 0.35) 65%,
             rgba(0, 0, 0, 0.15) 100%
         ),
-        url("../assets/proyectos-hero.jpg");
+        url("assets/proyectos-hero.jpg");
 
     background-position: center;
 
@@ -3999,7 +3999,7 @@ h3,
             rgba(0, 0, 0, 0.82) 35%,
             rgba(0, 0, 0, 0.25) 100%
         ),
-        url("../assets/proyectos-cta.jpg");
+        url("assets/proyectos-cta.jpg");
 
     background-position: center;
 
@@ -4109,7 +4109,7 @@ h3,
             rgba(0, 0, 0, 0.88),
             rgba(0, 0, 0, 0.62)
         ),
-        url("../assets/proyectos-impacto.jpg");
+        url("assets/proyectos-impacto.jpg");
 
     background-position: center;
 
@@ -4402,7 +4402,7 @@ h3,
                 rgba(0, 0, 0, 0.95),
                 rgba(0, 0, 0, 0.45)
             ),
-            url("../assets/proyectos-hero.jpg");
+            url("assets/proyectos-hero.jpg");
 
         background-position: 67% center;
     }
@@ -5182,7 +5182,7 @@ h3,
             rgba(0, 0, 0, 0.45) 57%,
             rgba(0, 0, 0, 0.20) 100%
         ),
-        url("../assets/contacto-mapa.jpg");
+        url("assets/contacto-mapa.jpg");
 
     background-size: cover;
 
@@ -5297,7 +5297,7 @@ h3,
             rgba(0, 0, 0, 0.87),
             rgba(0, 0, 0, 0.62)
         ),
-        url("../assets/contacto-cta.jpg");
+        url("assets/contacto-cta.jpg");
 
     background-size: cover;
 
@@ -5611,7 +5611,7 @@ h3,
                 rgba(0, 0, 0, 0.96),
                 rgba(0, 0, 0, 0.60)
             ),
-            url("../assets/contacto-mapa.jpg");
+            url("assets/contacto-mapa.jpg");
 
         background-position: 60% center;
     }
