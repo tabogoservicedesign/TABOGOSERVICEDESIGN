@@ -2018,22 +2018,7 @@ h3,
 
     background: #050708;
 }
-.servicios-hero::after {
 
-    content: "";
-
-    position: absolute;
-
-    inset: 0;
-
-    background:
-        linear-gradient(
-            transparent 70%,
-            #050708 100%
-        );
-
-    z-index: -1;
-}
 
 .servicios-hero-background {
 
