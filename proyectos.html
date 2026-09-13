@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Conoce los proyectos de TABOGO y descubre cómo convertimos ideas en resultados."
+    >
+
+    <title>Proyectos | TABOGO</title>
+
+
+    <!-- FUENTES -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- CSS -->
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="site-header">
+
+        <div class="container header-container">
+
+
+            <!-- LOGO -->
+
+            <a
+                href="index.html"
+                class="site-logo"
+                aria-label="TABOGO - Inicio"
+            >
+
+                <img
+                    src="assets/logo.png"
+                    alt="TABOGO"
+                >
+
+            </a>
+
+
+            <!-- NAVEGACIÓN -->
+
+            <nav
+                class="main-navigation"
+                aria-label="Navegación principal"
+            >
+
+                <ul class="navigation-list">
+
+                    <li>
+                        <a href="index.html">
+                            INICIO
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="servicios.html">
+                            SERVICIOS
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="proyectos.html">
+                            PROYECTOS
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="sobrenosotros.html">
+                            SOBRE NOSOTROS
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="hablemos.html">
+                            CONTACTO
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="hablemos.html"
+                            class="button button-outline"
+                        >
+                            HABLEMOS →
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+            <!-- MENÚ MÓVIL -->
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             HERO PROYECTOS
+        ================================================== -->
+
+        <section
+            class="proyectos-hero"
+            aria-labelledby="proyectos-hero-title"
+        >
+
+            <div class="proyectos-hero-background"></div>
+
+
+            <div class="container proyectos-hero-container">
+
+
+                <article class="proyectos-hero-content">
+
+
+                    <span class="proyectos-hero-small-title">
+                        NUESTROS
+                    </span>
+
+
+                    <h1 id="proyectos-hero-title">
+
+                        PROYECTOS
+                        <br>
+
+                        IDEAS QUE SE
+                        <br>
+
+                        CONVIERTEN
+                        <br>
+
+                        EN
+                        <span>RESULTADOS.</span>
+
+                    </h1>
+
+
+                    <p>
+
+                        Explora algunos de nuestros proyectos de
+                        Service Design, diseño digital, producción
+                        audiovisual y estrategias creativas para
+                        pymes, marcas y creadores de contenido.
+
+                    </p>
+
+
+                    <a
+                        href="hablemos.html"
+                        class="button button-primary"
+                    >
+                        hablemos de tu proyecto →
+                    </a>
+
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             LISTADO DE PROYECTOS
+        ================================================== -->
+
+        <section
+            class="proyectos-listado"
+            id="proyectos-listado"
+            aria-labelledby="proyectos-listado-title"
+        >
+
+            <div class="container">
+
+
+                <!-- CABECERA -->
+
+                <header class="proyectos-listado-header">
+
+
+                    <div>
+
+                        <span class="proyectos-eyebrow">
+                            EXPLORA
+                        </span>
+
+                        <h2 id="proyectos-listado-title">
+                            NUESTROS PROYECTOS
+                        </h2>
+
+                    </div>
+
+
+
+                    <!-- FILTROS -->
+
+                    <nav
+                        class="proyectos-filtros"
+                        aria-label="Filtrar proyectos"
+                    >
+
+                        <button
+                            type="button"
+                            class="proyectos-filtro proyectos-filtro-activo"
+                            data-filter="todos"
+                        >
+                            TODOS
+                        </button>
+
+                        <button
+                            type="button"
+                            class="proyectos-filtro"
+                            data-filter="service"
+                        >
+                            SERVICE DESIGN
+                        </button>
+
+                        <button
+                            type="button"
+                            class="proyectos-filtro"
+                            data-filter="audiovisual"
+                        >
+                            AUDIOVISUAL
+                        </button>
+
+                        <button
+                            type="button"
+                            class="proyectos-filtro"
+                            data-filter="digital"
+                        >
+                            DISEÑO DIGITAL
+                        </button>
+
+                        <button
+                            type="button"
+                            class="proyectos-filtro"
+                            data-filter="estrategia"
+                        >
+                            ESTRATEGIA
+                        </button>
+
+                    </nav>
+
+
+                </header>
+
+
+
+                <!-- =================================================
+                     GRID DE PROYECTOS
+                ================================================== -->
+
+                <div class="proyectos-grid">
+
+
+                    <!-- PROYECTO 1 -->
+
+                    <article
+                        class="proyectos-card"
+                        data-category="service"
+                    >
+
+                        <figure class="proyectos-card-image">
+
+                            <img
+                                src="assets/proyecto-cafe.jpg"
+                                alt="Proyecto de rebranding y Service Design para una cafetería"
+                                loading="lazy"
+                            >
+
+                        </figure>
+
+
+                        <div class="proyectos-card-content">
+
+
+                            <span class="proyectos-card-category">
+                                SERVICE DESIGN
+                            </span>
+
+
+                            <h3>
+                                REBRAND & SERVICE
+                                <br>
+                                DESIGN – PYME LOCAL
+                            </h3>
+
+
+                            <p>
+
+                                Creamos un servicio integral para una
+                                cafetería de especialidad, optimizando
+                                su experiencia de cliente y presencia digital.
+
+                            </p>
+
+
+                            <a
+                                href="#"
+                                class="proyectos-card-link"
+                            >
+                                VER PROYECTO →
+                            </a>
+
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PROYECTO 2 -->
+
+                    <article
+                        class="proyectos-card"
+                        data-category="audiovisual"
+                    >
+
+                        <figure class="proyectos-card-image">
+
+                            <img
+                                src="assets/proyecto-video.jpg"
+                                alt="Proyecto de video corporativo para startup tecnológica"
+                                loading="lazy"
+                            >
+
+                        </figure>
+
+
+                        <div class="proyectos-card-content">
+
+
+                            <span class="proyectos-card-category">
+                                AUDIOVISUAL
+                            </span>
+
+
+                            <h3>
+                                VIDEO CORPORATIVO
+                                <br>
+                                PARA STARTUP TECH
+                            </h3>
+
+
+                            <p>
+
+                                Producción y edición de un video
+                                corporativo para una startup de tecnología,
+                                mostrando su producto, valores y equipo.
+
+                            </p>
+
+
+                            <a
+                                href="#"
+                                class="proyectos-card-link"
+                            >
+                                VER PROYECTO →
+                            </a>
+
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PROYECTO 3 -->
+
+                    <article
+                        class="proyectos-card"
+                        data-category="digital"
+                    >
+
+                        <figure class="proyectos-card-image">
+
+                            <img
+                                src="assets/proyecto-app.jpg"
+                                alt="Landing page para lanzamiento de aplicación"
+                                loading="lazy"
+                            >
+
+                        </figure>
+
+
+                        <div class="proyectos-card-content">
+
+
+                            <span class="proyectos-card-category">
+                                DISEÑO DIGITAL
+                            </span>
+
+
+                            <h3>
+                                LANDING PAGE PARA
+                                <br>
+                                LANZAMIENTO DE APP
+                            </h3>
+
+
+                            <p>
+
+                                Diseñamos una landing page orientada
+                                a la conversión para una app de
+                                productividad enfocada en usuarios,
+                                freelancers y pymes.
+
+                            </p>
+
+
+                            <a
+                                href="#"
+                                class="proyectos-card-link"
+                            >
+                                VER PROYECTO →
+                            </a>
+
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PROYECTO 4 -->
+
+                    <article
+                        class="proyectos-card"
+                        data-category="estrategia"
+                    >
+
+                        <figure class="proyectos-card-image">
+
+                            <img
+                                src="assets/proyecto-influencer.jpg"
+                                alt="Estrategia de marca para influencer"
+                                loading="lazy"
+                            >
+
+                        </figure>
+
+
+                        <div class="proyectos-card-content">
+
+
+                            <span class="proyectos-card-category">
+                                SERVICE DESIGN
+                            </span>
+
+
+                            <h3>
+                                ESTRATEGIA DE MARCA
+                                <br>
+                                PARA INFLUENCER
+                            </h3>
+
+
+                            <p>
+
+                                Desarrollamos una identidad visual
+                                y estrategia de marca personal para
+                                una creadora de contenido, alineada
+                                a su audiencia y objetivos.
+
+                            </p>
+
+
+                            <a
+                                href="#"
+                                class="proyectos-card-link"
+                            >
+                                VER PROYECTO →
+                            </a>
+
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PROYECTO 5 -->
+
+                    <article
+                        class="proyectos-card"
+                        data-category="service"
+                    >
+
+                        <figure class="proyectos-card-image">
+
+                            <img
+                                src="assets/proyecto-ropa.jpg"
+                                alt="Spot publicitario para marca de ropa"
+                                loading="lazy"
+                            >
+
+                        </figure>
+
+
+                        <div class="proyectos-card-content">
+
+
+                            <span class="proyectos-card-category">
+                                SERVICE DESIGN
+                            </span>
+
+
+                            <h3>
+                                SPOT PUBLICITARIO
+                                <br>
+                                PARA MARCA DE ROPA
+                            </h3>
+
+
+                            <p>
+
+                                Creamos un spot audiovisual para una
+                                marca de ropa urbana, combinando
+                                narrativa visual, motion y edición dinámica.
+
+                            </p>
+
+
+                            <a
+                                href="#"
+                                class="proyectos-card-link"
+                            >
+                                VER PROYECTO →
+                            </a>
+
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PROYECTO 6 -->
+
+                    <article
+                        class="proyectos-card"
+                        data-category="estrategia"
+                    >
+
+                        <figure class="proyectos-card-image">
+
+                            <img
+                                src="assets/proyecto-gastronomia.jpg"
+                                alt="Plan de contenido para marca gastronómica"
+                                loading="lazy"
+                            >
+
+                        </figure>
+
+
+                        <div class="proyectos-card-content">
+
+
+                            <span class="proyectos-card-category">
+                                SERVICE DESIGN
+                            </span>
+
+
+                            <h3>
+                                PLAN DE CONTENIDO
+                                <br>
+                                PARA MARCA
+                                <br>
+                                GASTRONÓMICA
+                            </h3>
+
+
+                            <p>
+
+                                Creamos una estrategia de contenido
+                                multiplataforma para posicionar una
+                                marca gastronómica, conectando con
+                                su comunidad.
+
+                            </p>
+
+
+                            <a
+                                href="#"
+                                class="proyectos-card-link"
+                            >
+                                VER PROYECTO →
+                            </a>
+
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CTA PROYECTO
+        ================================================== -->
+
+        <section
+            class="proyectos-contacto"
+            id="contacto"
+            aria-labelledby="proyectos-contacto-title"
+        >
+
+            <div class="proyectos-contacto-background"></div>
+
+
+            <div class="container proyectos-contacto-container">
+
+
+                <article class="proyectos-contacto-content">
+
+
+                    <span>
+                        ¿TIENES UN PROYECTO EN MENTE?
+                    </span>
+
+
+                    <h2 id="proyectos-contacto-title">
+
+                        HAGAMOSLO
+
+                        <strong>
+                            REALIDAD.
+                        </strong>
+
+                    </h2>
+
+
+                    <p>
+
+                        Si tienes una idea, un proyecto o necesitas
+                        un equipo creativo y estratégico, hablemos.
+                        Queremos conocer tu visión y construirla juntos.
+
+                    </p>
+
+
+                    <a
+                        href="hablemos.html"
+                        class="button button-primary"
+                    >
+                        HABLEMOS DE TU PROYECTO →
+                    </a>
+
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             IMPACTO
+        ================================================== -->
+
+        <section
+            class="proyectos-impacto"
+            aria-labelledby="proyectos-impacto-title"
+        >
+
+            <div class="proyectos-impacto-background"></div>
+
+
+            <div class="container proyectos-impacto-container">
+
+
+                <!-- TEXTO -->
+
+                <article class="proyectos-impacto-intro">
+
+
+                    <span>
+                        PROYECTOS CON
+                    </span>
+
+
+                    <h2 id="proyectos-impacto-title">
+                        IMPACTO REAL
+                    </h2>
+
+
+                    <p>
+
+                        Trabajamos con pymes, emprendedores,
+                        creadores de contenido y marcas que
+                        quieren hacer crecer sus ideas.
+
+                    </p>
+
+
+                </article>
+
+
+
+                <!-- ESTADÍSTICAS -->
+
+                <div class="proyectos-estadisticas">
+
+
+                    <article class="proyectos-estadistica">
+
+                        <span
+                            class="proyectos-estadistica-icon"
+                            aria-hidden="true"
+                        >
+                            ◇
+                        </span>
+
+                        <strong>
+                            +50
+                        </strong>
+
+                        <p>
+                            PROYECTOS
+                            <br>
+                            COMPLETADOS
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="proyectos-estadistica">
+
+                        <span
+                            class="proyectos-estadistica-icon"
+                            aria-hidden="true"
+                        >
+                            ♧
+                        </span>
+
+                        <strong>
+                            +30
+                        </strong>
+
+                        <p>
+                            CLIENTES
+                            <br>
+                            SATISFECHOS
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="proyectos-estadistica">
+
+                        <span
+                            class="proyectos-estadistica-icon"
+                            aria-hidden="true"
+                        >
+                            ▶
+                        </span>
+
+                        <strong>
+                            +200
+                        </strong>
+
+                        <p>
+                            CONTENIDOS
+                            <br>
+                            PRODUCIDOS
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="proyectos-estadistica">
+
+                        <span
+                            class="proyectos-estadistica-icon"
+                            aria-hidden="true"
+                        >
+                            ☆
+                        </span>
+
+                        <strong>
+                            100%
+                        </strong>
+
+                        <p>
+                            COMPROMISO
+                            <br>
+                            CREATIVO
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+
+            <div class="footer-main">
+
+
+                <!-- MARCA -->
+
+                <section class="footer-brand">
+
+                    <a href="index.html">
+
+                        <img
+                            src="assets/logo.png"
+                            alt="TABOGO"
+                        >
+
+                    </a>
+
+                    <p>
+                        Diseñamos con actitud, estrategia y propósito
+                        para impulsar marcas y personas.
+                    </p>
+
+                </section>
+
+
+
+                <!-- NAVEGACIÓN -->
+
+                <nav
+                    class="footer-navigation"
+                    aria-label="Navegación del pie de página"
+                >
+
+                    <h2>
+                        NAVEGACIÓN
+                    </h2>
+
+                    <ul>
+
+                        <li>
+                            <a href="index.html">
+                                INICIO
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="servicios.html">
+                                SERVICIOS
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="proyectos.html">
+                                PROYECTOS
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="index.html#nosotros">
+                                SOBRE NOSOTROS
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#contacto">
+                                CONTACTO
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+
+
+                <!-- SERVICIOS -->
+
+                <section class="footer-services">
+
+                    <h2>
+                        SERVICIOS
+                    </h2>
+
+                    <ul>
+
+                        <li>
+                            IDENTIDAD VISUAL
+                        </li>
+
+                        <li>
+                            DISEÑO PARA REDES
+                        </li>
+
+                        <li>
+                            EDICIÓN DE VIDEO
+                        </li>
+
+                        <li>
+                            SONIDO Y CONTENIDO
+                        </li>
+
+                        <li>
+                            MOTION GRAPHICS
+                        </li>
+
+                    </ul>
+
+                </section>
+
+
+
+                <!-- CONTACTO -->
+
+                <address class="footer-contact">
+
+                    <h2>
+                        CONTACTO
+                    </h2>
+
+                    <p>
+                        ☎ +57 300 000 0000
+                    </p>
+
+                    <p>
+                        ✉ hola@tabogodg.com
+                    </p>
+
+                    <p>
+                        ⌖ BOGOTÁ, COLOMBIA
+                    </p>
+
+                </address>
+
+
+            </div>
+
+
+
+            <div class="footer-bottom">
+
+
+                <nav
+                    class="social-navigation"
+                    aria-label="Redes sociales"
+                >
+
+                    <a
+                        href="#"
+                        aria-label="Instagram"
+                    >
+                        <img src="assets/Instagram.png" alt="">
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="Behance"
+                    >
+                        <img src="assets/Behance.png" alt="">
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="YouTube"
+                    >
+                        <img src="assets/YouTube.png" alt="">
+                    </a>
+
+                </nav>
+
+
+                <p>
+                    Copyright © 2026 Diseñado por Tabogo Service Design
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+         FILTROS + MENÚ MÓVIL
+    ====================================================== -->
+
+    <script>
+
+
+        /* ==================================================
+           MENÚ MÓVIL
+        ================================================== */
+
+        const proyectosMenuButton =
+            document.querySelector('.menu-toggle');
+
+        const proyectosNavigation =
+            document.querySelector('.main-navigation');
+
+
+        if (
+            proyectosMenuButton &&
+            proyectosNavigation
+        ) {
+
+            proyectosMenuButton.addEventListener(
+                'click',
+                () => {
+
+                    const abierto =
+                        proyectosNavigation.classList.toggle(
+                            'is-open'
+                        );
+
+                    proyectosMenuButton.setAttribute(
+                        'aria-expanded',
+                        abierto
+                    );
+
+                }
+            );
+
+
+            proyectosNavigation
+                .querySelectorAll('a')
+                .forEach(link => {
+
+                    link.addEventListener(
+                        'click',
+                        () => {
+
+                            proyectosNavigation.classList.remove(
+                                'is-open'
+                            );
+
+                            proyectosMenuButton.setAttribute(
+                                'aria-expanded',
+                                'false'
+                            );
+
+                        }
+                    );
+
+                });
+
+        }
+
+
+
+        /* ==================================================
+           FILTROS DE PROYECTOS
+        ================================================== */
+
+        const proyectosFiltros =
+            document.querySelectorAll(
+                '.proyectos-filtro'
+            );
+
+
+        const proyectosCards =
+            document.querySelectorAll(
+                '.proyectos-card'
+            );
+
+
+        proyectosFiltros.forEach(
+            filtro => {
+
+                filtro.addEventListener(
+                    'click',
+                    () => {
+
+
+                        /* QUITAR ACTIVO */
+
+                        proyectosFiltros.forEach(
+                            boton => {
+
+                                boton.classList.remove(
+                                    'proyectos-filtro-activo'
+                                );
+
+                            }
+                        );
+
+
+                        /* ACTIVAR BOTÓN */
+
+                        filtro.classList.add(
+                            'proyectos-filtro-activo'
+                        );
+
+
+                        const categoria =
+                            filtro.dataset.filter;
+
+
+                        /* FILTRAR */
+
+                        proyectosCards.forEach(
+                            card => {
+
+                                const categoriaCard =
+                                    card.dataset.category;
+
+
+                                if (
+                                    categoria === 'todos' ||
+                                    categoriaCard === categoria
+                                ) {
+
+                                    card.classList.remove(
+                                        'proyecto-oculto'
+                                    );
+
+                                } else {
+
+                                    card.classList.add(
+                                        'proyecto-oculto'
+                                    );
+
+                                }
+
+                            }
+                        );
+
+                    }
+                );
+
+            }
+        );
+
+
+    </script>
+
+
+</body>
+
+</html>
