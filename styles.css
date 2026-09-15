@@ -1,7 +1,3 @@
-/* =========================================================
-   RESET
-========================================================= */
-
 * {
     margin: 0;
     padding: 0;
@@ -37,11 +33,6 @@ button {
     font-family: inherit;
 }
 
-
-/* =========================================================
-   VARIABLES
-========================================================= */
-
 :root {
 
     --black: #050708;
@@ -61,10 +52,6 @@ button {
 }
 
 
-/* =========================================================
-   CONTAINER
-========================================================= */
-
 .container {
     width: min(
         calc(100% - 96px),
@@ -73,11 +60,6 @@ button {
 
     margin-inline: auto;
 }
-
-
-/* =========================================================
-   TYPOGRAPHY
-========================================================= */
 
 h1,
 h2,
@@ -92,11 +74,6 @@ h3,
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 1px;
 }
-
-
-/* =========================================================
-   HEADER
-========================================================= */
 
 .site-header {
 
@@ -128,9 +105,6 @@ h3,
 
     justify-content: space-between;
 }
-
-
-/* LOGO */
 
 .site-logo {
     width: 145px;
@@ -172,9 +146,6 @@ h3,
     color: var(--cyan);
 }
 
-
-/* HEADER BUTTON */
-
 .button {
 
     display: inline-flex;
@@ -213,9 +184,6 @@ h3,
     color: #000;
 }
 
-
-/* MOBILE MENU BUTTON */
-
 .menu-toggle {
     display: none;
 
@@ -245,10 +213,6 @@ h3,
 }
 
 
-/* =========================================================
-   HERO
-========================================================= */
-
 .hero {
 
     position: relative;
@@ -264,9 +228,6 @@ h3,
     overflow: hidden;
     height: 100vh;
 }
-
-
-/* HERO IMAGE */
 
 .hero-background {
 
@@ -339,10 +300,10 @@ h3,
 }
 .con {
     display: block;
+
     width: auto;
+
     color: #029AA5;
-    
-   
     
 }
 
@@ -367,7 +328,6 @@ h3,
     gap: 24px;
 }
 
-
 .button-primary {
 
     background: var(--cyan);
@@ -382,9 +342,6 @@ h3,
 .button-primary:hover {
     background: white;
 }
-
-
-/* SPOT */
 
 .spot-link {
 
@@ -419,18 +376,12 @@ h3,
     padding-left: 2px;
 }
 
-
-/* =========================================================
-   SERVICES
-========================================================= */
-
 .services {
 
     background: var(--black);
 
     padding: 85px 0 100px;
 }
-
 
 .section-header {
 
@@ -445,7 +396,6 @@ h3,
     margin-bottom: 30px;
 }
 
-
 .eyebrow {
 
     display: block;
@@ -456,7 +406,6 @@ h3,
 
     line-height: 1;
 }
-
 
 .section-header h2 {
 
@@ -469,7 +418,6 @@ h3,
     margin-top: 5px;
 }
 
-
 .section-header p {
 
     max-width: 560px;
@@ -481,39 +429,19 @@ h3,
     justify-self: end;
 }
 
-
-/* =========================================================
-   BENTO GRID
-========================================================= */
-
 .services-grid {
 
     display: grid;
 
-    grid-template-columns:
-        1fr
-        1fr
-        1.85fr;
+    grid-template-columns:  1fr  1fr 1.85fr;
 
-    grid-template-rows:
-        180px
-        180px;
+    grid-template-rows:  180px 180px;
 
     gap: 14px;
 }
 
 
-/*
-    DISTRIBUCIÓN:
 
-    ┌─────────┬─────────┬─────────────┐
-    │ IDENTITY│ DIGITAL │             │
-    ├─────────┴─────────┤ VIDEO       │
-    │ SOUND             │             │
-    └───────────────────┴─────────────┘
-
-    Pero adaptado mediante grid areas.
-*/
 
 .service-card {
 
@@ -556,9 +484,6 @@ h3,
     grid-row: 2;
 }
 
-
-/* IMAGES */
-
 .service-image {
 
     position: absolute;
@@ -579,13 +504,9 @@ h3,
         transform 0.5s ease;
 }
 
-
 .service-card:hover img {
     transform: scale(1.05);
 }
-
-
-/* DARK OVERLAY */
 
 .service-overlay {
 
@@ -602,9 +523,6 @@ h3,
             rgba(0, 0, 0, 0.58)
         );
 }
-
-
-/* CARD CONTENT */
 
 .service-content {
 
@@ -625,14 +543,12 @@ h3,
     max-width: 480px;
 }
 
-
 .service-content h3 {
 
     font-size: 20px;
 
     margin-bottom: 5px;
 }
-
 
 .service-content p {
 
@@ -645,7 +561,6 @@ h3,
     color: #e5e5e5;
 }
 
-
 .service-content a {
 
     color: var(--cyan);
@@ -657,11 +572,6 @@ h3,
     letter-spacing: 1px;
 }
 
-
-/* =========================================================
-   PROCESS
-========================================================= */
-
 .process {
 
     background: white;
@@ -670,7 +580,6 @@ h3,
 
     padding: 80px 0;
 }
-
 
 .process-container {
 
@@ -683,11 +592,9 @@ h3,
     align-items: start;
 }
 
-
 .process-intro .eyebrow {
     color: #111;
 }
-
 
 .process-intro h2 {
 
@@ -698,11 +605,9 @@ h3,
     margin-top: 7px;
 }
 
-
 .process-intro h2 span {
     color: var(--cyan);
 }
-
 
 .process-list {
 
@@ -713,7 +618,6 @@ h3,
 
     gap: 8px;
 }
-
 
 .process-step {
 
@@ -728,7 +632,6 @@ h3,
     min-height: 185px;
 }
 
-
 .process-icon {
 
     display: block;
@@ -740,7 +643,6 @@ h3,
     margin-bottom: 12px;
 }
 
-
 .process-step h3 {
 
     font-size: 19px;
@@ -748,14 +650,12 @@ h3,
     margin-bottom: 6px;
 }
 
-
 .process-step p {
 
     font-size: 11px;
 
     line-height: 1.4;
 }
-
 
 .process-container > .button {
 
@@ -766,18 +666,12 @@ h3,
     margin-top: 25px;
 }
 
-
-/* =========================================================
-   PROJECTS
-========================================================= */
-
 .projects {
 
     background: #050708;
 
     padding: 75px 0 90px;
 }
-
 
 .projects-header {
 
@@ -790,7 +684,6 @@ h3,
     margin-bottom: 28px;
 }
 
-
 .projects-header h2 {
 
     font-size: 29px;
@@ -799,7 +692,6 @@ h3,
 
     line-height: 1;
 }
-
 
 .projects-header p {
 
@@ -812,9 +704,6 @@ h3,
     justify-self: end;
 }
 
-
-/* PROJECT GRID */
-
 .projects-grid {
 
     display: grid;
@@ -825,7 +714,6 @@ h3,
     gap: 12px;
 }
 
-
 .project-card {
 
     border: 1px solid var(--cyan);
@@ -835,7 +723,6 @@ h3,
     overflow: hidden;
 }
 
-
 .project-card figure {
 
     position: relative;
@@ -844,7 +731,6 @@ h3,
 
     overflow: hidden;
 }
-
 
 .project-card img {
 
@@ -857,11 +743,9 @@ h3,
         transform 0.4s ease;
 }
 
-
 .project-card:hover img {
     transform: scale(1.06);
 }
-
 
 .project-card figure::after {
 
@@ -878,7 +762,6 @@ h3,
         );
 }
 
-
 .project-card figcaption {
 
     position: absolute;
@@ -887,7 +770,6 @@ h3,
 
     inset: auto 15px 15px 15px;
 }
-
 
 .project-card h3 {
 
@@ -898,7 +780,6 @@ h3,
     margin-bottom: 15px;
 }
 
-
 .project-card figcaption span {
 
     font-family: "Bebas Neue", sans-serif;
@@ -908,7 +789,6 @@ h3,
     letter-spacing: 1px;
 }
 
-
 .projects-action {
 
     display: flex;
@@ -917,11 +797,6 @@ h3,
 
     margin-top: 28px;
 }
-
-
-/* =========================================================
-   CTA
-========================================================= */
 
 .cta {
 
@@ -935,7 +810,6 @@ h3,
 
     overflow: hidden;
 }
-
 
 .cta-background {
 
@@ -958,7 +832,6 @@ h3,
     background-position: center;
 }
 
-
 .cta-container {
 
     display: grid;
@@ -970,14 +843,12 @@ h3,
     align-items: center;
 }
 
-
 .cta-content h2 {
 
     font-size: 40px;
 
     line-height: 0.9;
 }
-
 
 .cta-content h3 {
 
@@ -989,7 +860,6 @@ h3,
 
     margin-top: 6px;
 }
-
 
 .cta-box {
 
@@ -1004,7 +874,6 @@ h3,
     justify-self: end;
 }
 
-
 .cta-box p {
 
     font-size: 19px;
@@ -1013,7 +882,6 @@ h3,
 
     margin-bottom: 20px;
 }
-
 
 .button-light {
 
@@ -1024,14 +892,6 @@ h3,
     font-size: 14px;
 }
 
-
-
-
-
-/* =========================================================
-   FOOTER
-========================================================= */
-
 .site-footer {
 
     background: #050708;
@@ -1040,7 +900,6 @@ h3,
 
     border-top: 1px solid rgba(255,255,255,0.05);
 }
-
 
 .footer-main {
 
@@ -1057,14 +916,12 @@ h3,
     padding-bottom: 50px;
 }
 
-
 .footer-brand img {
 
     width: 180px;
 
     margin-bottom: 20px;
 }
-
 
 .footer-brand p {
 
@@ -1077,7 +934,6 @@ h3,
     max-width: 420px;
 }
 
-
 .footer-main h2 {
 
     color: var(--cyan);
@@ -1086,7 +942,6 @@ h3,
 
     margin-bottom: 17px;
 }
-
 
 .footer-main li,
 .footer-contact p {
@@ -1102,17 +957,14 @@ h3,
     color: #c7c7c7;
 }
 
-
 .footer-navigation a:hover {
     color: var(--cyan);
 }
-
 
 .footer-contact {
 
     font-style: normal;
 }
-
 
 .footer-bottom {
 
@@ -1131,14 +983,12 @@ h3,
     gap: 15px;
 }
 
-
 .social-navigation {
 
     display: flex;
 
     gap: 20px;
 }
-
 
 .social-navigation a {
 
@@ -1156,7 +1006,6 @@ h3,
     font-size: 11px;
 }
 
-
 .footer-bottom p {
 
     color: #777;
@@ -1164,116 +1013,7 @@ h3,
     font-size: 9px;
 }
 
-
-/* =========================================================
-   TABLET
-========================================================= */
-
-@media (max-width: 1000px) {
-
-    .container {
-        width: min(
-            calc(100% - 50px),
-            800px
-        );
-    }
-
-
-    /* HEADER */
-
-    .navigation-list {
-        gap: 18px;
-
-        font-size: 14px;
-    }
-
-
-    /* SERVICES */
-
-    .services-grid {
-
-        grid-template-columns:
-            1fr 1fr;
-
-        grid-template-rows:
-            180px
-            180px
-            180px;
-
-    }
-
-    .service-card--identity {
-        grid-column: 1;
-        grid-row: 1;
-    }
-
-    .service-card--digital {
-        grid-column: 2;
-        grid-row: 1;
-    }
-
-    .service-card--sound {
-        grid-column: 1 / 3;
-        grid-row: 2;
-    }
-
-    .service-card--video {
-        grid-column: 1 / 3;
-        grid-row: 3;
-    }
-
-    .service-card--motion {
-        grid-column: 1 / 3;
-        grid-row: 4;
-    }
-
-
-    /* PROCESS */
-
-    .process-container {
-
-        grid-template-columns: 1fr;
-
-        gap: 30px;
-    }
-
-    .process-list {
-
-        grid-template-columns:
-            repeat(3, 1fr);
-    }
-
-    .process-container > .button {
-        grid-column: auto;
-    }
-
-
-    /* PROJECTS */
-
-    .projects-grid {
-
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-
-
-    /* FOOTER */
-
-    .footer-main {
-
-        grid-template-columns:
-            1fr 1fr;
-
-    }
-
-}
-
-
-/* =========================================================
-   MOBILE
-========================================================= */
-
-@media (max-width: 700px) {
+@media (max-width: 600px) {
 
 
     .container {
@@ -1281,14 +1021,7 @@ h3,
         width: calc(100% - 48px);
 
     }
-
-
-    /* =========================================
-       HEADER
-    ========================================== */
-
     .site-header {
-
         height: 64px;
     }
 
@@ -1348,11 +1081,6 @@ h3,
         display: flex;
 
     }
-
-
-    /* =========================================
-       HERO
-    ========================================== */
 
     .hero {
 
@@ -1427,11 +1155,6 @@ h3,
         display: none;
     }
 
-
-    /* =========================================
-       SERVICES
-    ========================================== */
-
     .services {
 
         padding: 55px 0 60px;
@@ -1463,30 +1186,6 @@ h3,
         display: none;
     }
 
-
-    /*
-       BENTO MOBILE
-
-       2 columnas arriba:
-
-       ┌────────┬────────┐
-       │        │        │
-       │IDENT.  │DIGITAL │
-       │        │        │
-       └────────┴────────┘
-
-       ┌─────────────────┐
-       │ SONIDO           │
-       └─────────────────┘
-
-       ┌─────────────────┐
-       │ VIDEO            │
-       └─────────────────┘
-
-       ┌─────────────────┐
-       │ MOTION           │
-       └─────────────────┘
-    */
 
     .services-grid {
         height: 700px;
@@ -1596,11 +1295,6 @@ h3,
         max-width: 270px;
     }
 
-
-    /* =========================================
-       PROCESS
-    ========================================== */
-
     .process {
 
         padding: 50px 0;
@@ -1695,11 +1389,6 @@ h3,
         min-height: 35px;
     }
 
-
-    /* =========================================
-       PROJECTS
-    ========================================== */
-
     .projects {
 
         padding: 55px 0;
@@ -1786,11 +1475,6 @@ h3,
         font-size: 10px;
     }
 
-
-    /* =========================================
-       CTA
-    ========================================== */
-
     .cta {
 
         min-height: 360px;
@@ -1842,11 +1526,6 @@ h3,
         font-size: 10px;
     }
 
-
-    /* =========================================
-       ABOUT
-    ========================================== */
-
     .about {
 
         padding: 60px 0;
@@ -1871,11 +1550,6 @@ h3,
 
         font-size: 14px;
     }
-
-
-    /* =========================================
-       FOOTER
-    ========================================== */
 
     .site-footer {
 
@@ -1942,64 +1616,8 @@ h3,
 }
 
 
-/* =========================================================
-   SMALL MOBILE
-========================================================= */
-
-@media (max-width: 400px) {
-
-    .container {
-
-        width: calc(100% - 36px);
-
-    }
-
-
-    .hero-content h1 {
-
-        font-size: 52px;
-
-    }
-
-
-    .services-grid {
-
-        grid-template-rows:
-            165px
-            165px
-            165px
-            165px;
-
-    }
-
-
-    .service-content p {
-
-        font-size: 11px;
-
-    }
-
-
-    .project-card {
-
-        flex-basis: 140px;
-
-    }
-
-}
-/* ============================================================
-   ============================================================
-   
-   PÁGINA DE SERVICIOS
-   Clases exclusivas: servicios-*
-   
-   ============================================================
-   ============================================================ */
-
-
-/* ============================================================
-   HERO SERVICIOS
-============================================================ */
+/* pagina servicios
+----------------------- */
 
 .servicios-hero {
 
@@ -2087,14 +1705,12 @@ h3,
     min-height: 534px;
 }
 
-
 .servicios-hero-content {
 
     width: 100%;
 
     max-width: 720px;
 }
-
 
 .servicios-hero-content h1 {
 
@@ -2113,13 +1729,11 @@ h3,
     margin-bottom: 28px;
 }
 
-
 .servicios-hero-content h1 span {
 
     color: #029AA5;
 
 }
-
 
 .servicios-hero-content h1 strong {
 
@@ -2135,7 +1749,6 @@ h3,
     background-position: right;
 }
 
-
 .servicios-hero-content p {
 
     max-width: 590px;
@@ -2149,18 +1762,12 @@ h3,
     margin-bottom: 28px;
 }
 
-
-/* ============================================================
-   SERVICE DESIGN
-============================================================ */
-
 .servicios-design {
 
     background: #050708;
 
     padding: 75px 0 80px;
 }
-
 
 .servicios-design-container {
 
@@ -2173,14 +1780,10 @@ h3,
     align-items: center;
 }
 
-
-/* INTRO */
-
 .servicios-design-intro {
 
     max-width: 260px;
 }
-
 
 .servicios-eyebrow {
 
@@ -2197,7 +1800,6 @@ h3,
     letter-spacing: 0.5px;
 }
 
-
 .servicios-design-intro h2 {
 
     color: #00aabd;
@@ -2211,7 +1813,6 @@ h3,
     margin-bottom: 12px;
 }
 
-
 .servicios-design-intro > p {
 
     font-size: 14px;
@@ -2223,9 +1824,6 @@ h3,
     margin-bottom: 22px;
 }
 
-
-/* CHECK LIST */
-
 .servicios-check-list {
 
     display: flex;
@@ -2234,7 +1832,6 @@ h3,
 
     gap: 12px;
 }
-
 
 .servicios-check-list li {
 
@@ -2248,7 +1845,6 @@ h3,
 
     font-weight: 600;
 }
-
 
 .servicios-check-list li span {
 
@@ -2271,11 +1867,6 @@ h3,
     flex-shrink: 0;
 }
 
-
-/* ============================================================
-   SERVICE DESIGN STEPS
-============================================================ */
-
 .servicios-design-steps {
 
     display: grid;
@@ -2285,7 +1876,6 @@ h3,
 
     width: 100%;
 }
-
 
 .servicios-design-step {
 
@@ -2303,14 +1893,10 @@ h3,
     text-align: center;
 }
 
-
 .servicios-design-step:last-child {
 
     border-right: none;
 }
-
-
-/* ICONOS */
 
 .servicios-design-step figure {
 
@@ -2320,7 +1906,6 @@ h3,
 
     justify-content: center;
 }
-
 
 .servicios-step-icon {
 
@@ -2345,7 +1930,6 @@ h3,
     font-weight: 700;
 }
 
-
 .servicios-design-step h3 {
 
     font-family: "Bebas Neue", sans-serif;
@@ -2357,7 +1941,6 @@ h3,
     margin-bottom: 8px;
 }
 
-
 .servicios-design-step p {
 
     font-size: 10px;
@@ -2367,11 +1950,6 @@ h3,
     font-weight: 600;
 }
 
-
-/* ============================================================
-   SOLUCIONES DIGITALES
-============================================================ */
-
 .servicios-digital {
 
     background: #ffffff;
@@ -2380,7 +1958,6 @@ h3,
 
     padding: 35px 0;
 }
-
 
 .servicios-digital-container {
 
@@ -2393,18 +1970,15 @@ h3,
     align-items: center;
 }
 
-
 .servicios-digital-intro {
 
     max-width: 250px;
 }
 
-
 .servicios-eyebrow-dark {
 
     color: #050708;
 }
-
 
 .servicios-digital-intro h2 {
 
@@ -2419,7 +1993,6 @@ h3,
     margin-bottom: 15px;
 }
 
-
 .servicios-digital-intro p {
 
     font-size: 14px;
@@ -2428,9 +2001,6 @@ h3,
 
     font-weight: 600;
 }
-
-
-/* CARDS */
 
 .servicios-digital-grid {
 
@@ -2441,7 +2011,6 @@ h3,
 
     gap: 16px;
 }
-
 
 .servicios-digital-card {
 
@@ -2454,12 +2023,10 @@ h3,
     background: #ffffff;
 }
 
-
 .servicios-digital-card figure {
 
     margin: 0;
 }
-
 
 .servicios-digital-card figure > img {
 
@@ -2470,7 +2037,6 @@ h3,
     object-fit: cover;
 }
 
-
 .servicios-digital-card figcaption {
 
     padding: 15px 14px 18px;
@@ -2479,7 +2045,6 @@ h3,
 
     text-align: center;
 }
-
 
 .servicios-digital-card h3 {
 
@@ -2492,7 +2057,6 @@ h3,
     margin-bottom: 8px;
 }
 
-
 .servicios-digital-card p {
 
     font-size: 9px;
@@ -2502,18 +2066,12 @@ h3,
     font-weight: 600;
 }
 
-
-/* ============================================================
-   CONTENIDO AUDIOVISUAL
-============================================================ */
-
 .servicios-audiovisual {
 
     background: #050708;
 
     padding: 65px 0 70px;
 }
-
 
 .servicios-audiovisual-header {
 
@@ -2528,7 +2086,6 @@ h3,
     margin-bottom: 35px;
 }
 
-
 .servicios-audiovisual-header h2 {
 
     font-family: "Bebas Neue", sans-serif;
@@ -2539,7 +2096,6 @@ h3,
 
     line-height: 1;
 }
-
 
 .servicios-audiovisual-header > p {
 
@@ -2552,11 +2108,6 @@ h3,
     line-height: 1.5;
 }
 
-
-/* ============================================================
-   AUDIOVISUAL GRID
-============================================================ */
-
 .servicios-audiovisual-wrapper {
 
     display: grid;
@@ -2567,7 +2118,6 @@ h3,
 
     align-items: center;
 }
-
 
 .servicios-audiovisual-grid {
 
@@ -2581,7 +2131,6 @@ h3,
     min-width: 0;
 }
 
-
 .servicios-audiovisual-card {
 
     border: 1px solid #00aabd;
@@ -2593,7 +2142,6 @@ h3,
     background: #050708;
 }
 
-
 .servicios-audiovisual-card figure {
 
     position: relative;
@@ -2604,7 +2152,6 @@ h3,
 
     overflow: hidden;
 }
-
 
 .servicios-audiovisual-card img {
 
@@ -2622,12 +2169,10 @@ h3,
         transform 0.4s ease;
 }
 
-
 .servicios-audiovisual-card:hover img {
 
     transform: scale(1.06);
 }
-
 
 .servicios-audiovisual-card figure::after {
 
@@ -2644,7 +2189,6 @@ h3,
         );
 }
 
-
 .servicios-audiovisual-card figcaption {
 
     position: absolute;
@@ -2658,7 +2202,6 @@ h3,
     bottom: 15px;
 }
 
-
 .servicios-audiovisual-card h3 {
 
     font-family: "Bebas Neue", sans-serif;
@@ -2670,7 +2213,6 @@ h3,
     margin-bottom: 8px;
 }
 
-
 .servicios-audiovisual-card p {
 
     font-size: 9px;
@@ -2681,7 +2223,6 @@ h3,
 
     margin-bottom: 10px;
 }
-
 
 .servicios-audiovisual-card a {
 
@@ -2699,11 +2240,6 @@ h3,
 
     border-radius: 2px;
 }
-
-
-/* ============================================================
-   FLECHAS DEL CARRUSEL
-============================================================ */
 
 .servicios-carousel-arrow {
 
@@ -2732,14 +2268,12 @@ h3,
         color 0.25s ease;
 }
 
-
 .servicios-carousel-arrow:hover {
 
     background: #00aabd;
 
     color: #000000;
 }
-
 
 .servicios-audiovisual-button {
 
@@ -2749,11 +2283,6 @@ h3,
 
     margin-top: 30px;
 }
-
-
-/* ============================================================
-   CTA
-============================================================ */
 
 .servicios-cta {
 
@@ -2767,7 +2296,6 @@ h3,
 
     overflow: hidden;
 }
-
 
 .servicios-cta-background {
 
@@ -2790,7 +2318,6 @@ h3,
     background-size: cover;
 }
 
-
 .servicios-cta-container {
 
     position: relative;
@@ -2806,7 +2333,6 @@ h3,
     align-items: center;
 }
 
-
 .servicios-cta-title h2 {
 
     font-family: "Bebas Neue", sans-serif;
@@ -2815,7 +2341,6 @@ h3,
 
     line-height: 0.9;
 }
-
 
 .servicios-cta-title h3 {
 
@@ -2829,7 +2354,6 @@ h3,
 
     margin-top: 7px;
 }
-
 
 .servicios-cta-box {
 
@@ -2853,7 +2377,6 @@ h3,
         );
 }
 
-
 .servicios-cta-box p {
 
     font-size: 18px;
@@ -2863,167 +2386,9 @@ h3,
     margin-bottom: 20px;
 }
 
+@media (max-width: 600px) {
 
-/* ============================================================
-   TABLET
-============================================================ */
 
-@media (max-width: 1050px) {
-
-
-    /* SERVICE DESIGN */
-
-    .servicios-design-container {
-
-        grid-template-columns: 220px 1fr;
-
-        gap: 30px;
-    }
-
-
-    .servicios-design-steps {
-
-        grid-template-columns:
-            repeat(3, 1fr);
-
-        row-gap: 30px;
-    }
-
-
-    .servicios-design-step:nth-child(3) {
-
-        border-right: none;
-    }
-
-
-    /* DIGITAL */
-
-    .servicios-digital-container {
-
-        grid-template-columns: 210px 1fr;
-
-        gap: 30px;
-    }
-
-
-    .servicios-digital-grid {
-
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-
-
-    /* AUDIOVISUAL */
-
-    .servicios-audiovisual-grid {
-
-        grid-template-columns:
-            repeat(3, 1fr);
-    }
-
-
-    .servicios-audiovisual-card:nth-child(n + 4) {
-
-        display: none;
-    }
-
-}
-
-
-/* ============================================================
-   TABLET PEQUEÑA
-============================================================ */
-
-@media (max-width: 800px) {
-
-
-    .servicios-hero {
-
-        min-height: 570px;
-    }
-
-
-    .servicios-hero-content h1 {
-
-        font-size: 75px;
-    }
-
-
-    /* DESIGN */
-
-    .servicios-design-container {
-
-        grid-template-columns: 1fr;
-
-        gap: 40px;
-    }
-
-
-    .servicios-design-intro {
-
-        max-width: 400px;
-    }
-
-
-    .servicios-design-steps {
-
-        grid-template-columns:
-            repeat(5, 1fr);
-
-        overflow-x: auto;
-
-        padding-bottom: 10px;
-    }
-
-
-    .servicios-design-step {
-
-        min-width: 145px;
-    }
-
-
-    /* DIGITAL */
-
-    .servicios-digital-container {
-
-        grid-template-columns: 1fr;
-
-        gap: 25px;
-    }
-
-
-    .servicios-digital-intro {
-
-        max-width: 400px;
-    }
-
-
-    /* CTA */
-
-    .servicios-cta-container {
-
-        grid-template-columns: 1fr;
-    }
-
-
-    .servicios-cta-box {
-
-        justify-self: start;
-    }
-
-}
-
-
-/* ============================================================
-   MOBILE
-============================================================ */
-
-@media (max-width: 700px) {
-
-
-    /* ========================================================
-       HERO
-    ======================================================== */
 
     .servicios-hero {
 
@@ -3091,12 +2456,6 @@ h3,
 
         font-size: 10px;
     }
-
-
-
-    /* ========================================================
-       SERVICE DESIGN
-    ======================================================== */
 
     .servicios-design {
 
@@ -3234,11 +2593,6 @@ h3,
     }
 
 
-
-    /* ========================================================
-       SOLUCIONES DIGITALES
-    ======================================================== */
-
     .servicios-digital {
 
         padding: 45px 0 50px;
@@ -3327,12 +2681,6 @@ h3,
 
         line-height: 1.3;
     }
-
-
-
-    /* ========================================================
-       AUDIOVISUAL
-    ======================================================== */
 
     .servicios-audiovisual {
 
@@ -3460,11 +2808,6 @@ h3,
     }
 
 
-
-    /* ========================================================
-       CTA
-    ======================================================== */
-
     .servicios-cta {
 
         min-height: 390px;
@@ -3529,51 +2872,9 @@ h3,
 }
 
 
-/* ============================================================
-   MOBILE PEQUEÑO
-============================================================ */
 
-@media (max-width: 400px) {
-
-
-    .servicios-hero-content h1 {
-
-        font-size: 47px;
-    }
-
-
-    .servicios-design-step {
-
-        flex-basis: 118px;
-    }
-
-
-    .servicios-digital-card {
-
-        flex-basis: 120px;
-    }
-
-
-    .servicios-audiovisual-card {
-
-        flex-basis: 145px;
-    }
-
-}
-
-/* ============================================================
-   ============================================================
-   
-   PÁGINA DE PROYECTOS
-   Clases exclusivas: proyectos-*
-   
-   ============================================================
-   ============================================================ */
-
-
-/* ============================================================
-   HERO
-============================================================ */
+/* pagina proyectos
+---------------- */
 
 .proyectos-hero {
 
@@ -3595,7 +2896,6 @@ h3,
 
     background: #050708;
 }
-
 
 .proyectos-hero-background {
 
@@ -3649,7 +2949,6 @@ h3,
     align-items: center;
 }
 
-
 .proyectos-hero-content {
 
     width: 100%;
@@ -3658,7 +2957,6 @@ h3,
 
     max-width: 590px;
 }
-
 
 .proyectos-hero-small-title {
 
@@ -3672,7 +2970,6 @@ h3,
 
     line-height: 1;
 }
-
 
 .proyectos-hero-content h1 {
 
@@ -3691,7 +2988,6 @@ h3,
     margin-bottom: 25px;
 }
 
-
 .proyectos-hero-content h1 span {
 
     color: var(--white);
@@ -3704,7 +3000,6 @@ h3,
     );
     background-position: center;
 }
-
 
 .proyectos-hero-content p {
 
@@ -3719,19 +3014,12 @@ h3,
     margin-bottom: 15px;
 }
 
-
-
-/* ============================================================
-   LISTADO DE PROYECTOS
-============================================================ */
-
 .proyectos-listado {
 
     background: #050708;
 
     padding: 65px 0 75px;
 }
-
 
 .proyectos-listado-header {
 
@@ -3746,7 +3034,6 @@ h3,
     margin-bottom: 25px;
 }
 
-
 .proyectos-eyebrow {
 
     display: block;
@@ -3760,7 +3047,6 @@ h3,
     color: #ffffff;
 }
 
-
 .proyectos-listado-header h2 {
 
     font-family: "Bebas Neue", sans-serif;
@@ -3772,12 +3058,6 @@ h3,
     line-height: 1;
 }
 
-
-
-/* ============================================================
-   FILTROS
-============================================================ */
-
 .proyectos-filtros {
 
     display: flex;
@@ -3788,7 +3068,6 @@ h3,
 
     gap: 10px;
 }
-
 
 .proyectos-filtro {
 
@@ -3815,7 +3094,6 @@ h3,
         color 0.25s ease;
 }
 
-
 .proyectos-filtro:hover,
 .proyectos-filtro-activo {
 
@@ -3824,11 +3102,6 @@ h3,
     color: #000000;
 }
 
-
-
-/* ============================================================
-   GRID
-============================================================ */
 
 .proyectos-grid {
 
@@ -3839,12 +3112,6 @@ h3,
 
     gap: 2px 15px;
 }
-
-
-
-/* ============================================================
-   CARD
-============================================================ */
 
 .proyectos-card {
 
@@ -3867,23 +3134,15 @@ h3,
         transform 0.25s ease;
 }
 
-
 .proyectos-card:hover {
 
     transform: translateY(-2px);
 }
 
-
 .proyectos-card.proyecto-oculto {
 
     display: none;
 }
-
-
-
-/* ============================================================
-   IMAGEN CARD
-============================================================ */
 
 .proyectos-card-image {
 
@@ -3895,7 +3154,6 @@ h3,
 
     overflow: hidden;
 }
-
 
 .proyectos-card-image::after {
 
@@ -3913,7 +3171,6 @@ h3,
         );
 }
 
-
 .proyectos-card-image img {
 
     width: 100%;
@@ -3928,18 +3185,11 @@ h3,
         transform 0.45s ease;
 }
 
-
 .proyectos-card:hover
 .proyectos-card-image img {
 
     transform: scale(1.05);
 }
-
-
-
-/* ============================================================
-   CONTENIDO CARD
-============================================================ */
 
 .proyectos-card-content {
 
@@ -3953,7 +3203,6 @@ h3,
 
     padding: 25px 20px;
 }
-
 
 .proyectos-card-category {
 
@@ -3978,7 +3227,6 @@ h3,
     margin-bottom: 14px;
 }
 
-
 .proyectos-card-content h3 {
 
     font-family: "Bebas Neue", sans-serif;
@@ -3992,7 +3240,6 @@ h3,
     margin-bottom: 12px;
 }
 
-
 .proyectos-card-content p {
 
     font-size: 11px;
@@ -4005,7 +3252,6 @@ h3,
 
     margin-bottom: 15px;
 }
-
 
 .proyectos-card-link {
 
@@ -4031,17 +3277,10 @@ h3,
         background 0.25s ease;
 }
 
-
 .proyectos-card-link:hover {
 
     background: #ffffff;
 }
-
-
-
-/* ============================================================
-   CTA
-============================================================ */
 
 .proyectos-contacto {
 
@@ -4055,7 +3294,6 @@ h3,
 
     overflow: hidden;
 }
-
 
 .proyectos-contacto-background {
 
@@ -4080,7 +3318,6 @@ h3,
    
 }
 
-
 .proyectos-contacto-container {
 
     position: relative;
@@ -4092,12 +3329,10 @@ h3,
     justify-content: flex-start;
 }
 
-
 .proyectos-contacto-content {
 
     max-width: 410px;
 }
-
 
 .proyectos-contacto-content > span {
 
@@ -4110,7 +3345,6 @@ h3,
     margin-bottom: 4px;
 }
 
-
 .proyectos-contacto-content h2 {
 
     font-family: "Bebas Neue", sans-serif;
@@ -4122,7 +3356,6 @@ h3,
     margin-bottom: 15px;
 }
 
-
 .proyectos-contacto-content h2 strong {
 
     display: block;
@@ -4131,7 +3364,6 @@ h3,
 
     font-weight: 400;
 }
-
 
 .proyectos-contacto-content p {
 
@@ -4145,12 +3377,6 @@ h3,
 
     margin-bottom: 20px;
 }
-
-
-
-/* ============================================================
-   IMPACTO
-============================================================ */
 
 .proyectos-impacto {
 
@@ -4166,7 +3392,6 @@ h3,
 
     background: #050708;
 }
-
 
 .proyectos-impacto-background {
 
@@ -4184,11 +3409,10 @@ h3,
         ),
         url("assets/proyectos-impacto.jpg");
 
-    background-position: center;
+    background-position: right;
 
     background-size: cover;
 }
-
 
 .proyectos-impacto-container {
 
@@ -4205,12 +3429,10 @@ h3,
     align-items: center;
 }
 
-
 .proyectos-impacto-intro {
 
     max-width: 220px;
 }
-
 
 .proyectos-impacto-intro > span {
 
@@ -4222,7 +3444,6 @@ h3,
 
     line-height: 0.9;
 }
-
 
 .proyectos-impacto-intro h2 {
 
@@ -4237,7 +3458,6 @@ h3,
     margin-bottom: 12px;
 }
 
-
 .proyectos-impacto-intro p {
 
     font-size: 11px;
@@ -4247,20 +3467,21 @@ h3,
     font-weight: 600;
 }
 
-
-
-/* ============================================================
-   ESTADÍSTICAS
-============================================================ */
-
 .proyectos-estadisticas {
 
     display: grid;
 
     grid-template-columns:
         repeat(4, 1fr);
+   
+
 }
 
+.proyectos-estadisticas img {
+
+   width: 30px;
+   height: 30px;
+}
 
 .proyectos-estadistica {
 
@@ -4288,12 +3509,10 @@ h3,
         );
 }
 
-
 .proyectos-estadistica:last-child {
 
     border-right: none;
 }
-
 
 .proyectos-estadistica-icon {
 
@@ -4306,7 +3525,6 @@ h3,
     margin-bottom: 5px;
 }
 
-
 .proyectos-estadistica strong {
 
     color: #00aabd;
@@ -4317,7 +3535,6 @@ h3,
 
     line-height: 1;
 }
-
 
 .proyectos-estadistica p {
 
@@ -4332,132 +3549,7 @@ h3,
     margin-top: 6px;
 }
 
-
-
-/* ============================================================
-   TABLET
-============================================================ */
-
-@media (max-width: 1050px) {
-
-
-    .proyectos-card-content {
-
-        padding: 20px 15px;
-    }
-
-
-    .proyectos-card-content h3 {
-
-        font-size: 21px;
-    }
-
-
-    .proyectos-card-content p {
-
-        font-size: 10px;
-    }
-
-
-    .proyectos-impacto-container {
-
-        grid-template-columns: 190px 1fr;
-
-        gap: 30px;
-    }
-
-
-    .proyectos-estadistica {
-
-        padding: 10px;
-    }
-
-
-    .proyectos-estadistica strong {
-
-        font-size: 32px;
-    }
-
-}
-
-
-
-/* ============================================================
-   TABLET PEQUEÑA
-============================================================ */
-
-@media (max-width: 850px) {
-
-
-    .proyectos-hero {
-
-        min-height: 570px;
-    }
-
-
-    .proyectos-hero-content {
-
-        max-width: 470px;
-    }
-
-
-    .proyectos-hero-content h1 {
-
-        font-size: 75px;
-    }
-
-
-    .proyectos-listado-header {
-
-        align-items: flex-start;
-
-        flex-direction: column;
-    }
-
-
-    .proyectos-filtros {
-
-        justify-content: flex-start;
-    }
-
-
-    .proyectos-grid {
-
-        grid-template-columns: 1fr;
-    }
-
-
-    .proyectos-impacto-container {
-
-        grid-template-columns: 1fr;
-
-        gap: 30px;
-
-        padding-top: 50px;
-
-        padding-bottom: 50px;
-    }
-
-
-    .proyectos-impacto-intro {
-
-        max-width: 350px;
-    }
-
-}
-
-
-
-/* ============================================================
-   MOBILE
-============================================================ */
-
-@media (max-width: 700px) {
-
-
-    /* ========================================================
-       HERO
-    ======================================================== */
+@media (max-width: 600px) {
 
     .proyectos-hero {
 
@@ -4529,11 +3621,6 @@ h3,
     }
 
 
-
-    /* ========================================================
-       LISTADO
-    ======================================================== */
-
     .proyectos-listado {
 
         padding: 50px 0 55px;
@@ -4561,9 +3648,6 @@ h3,
         font-size: 25px;
     }
 
-
-    /* FILTROS HORIZONTALES */
-
     .proyectos-filtros {
 
         width: 100%;
@@ -4579,12 +3663,10 @@ h3,
         padding-bottom: 5px;
     }
 
-
     .proyectos-filtros::-webkit-scrollbar {
 
         display: none;
     }
-
 
     .proyectos-filtro {
 
@@ -4597,11 +3679,6 @@ h3,
         padding: 6px 11px;
     }
 
-
-
-    /* ========================================================
-       CARDS
-    ======================================================== */
 
     .proyectos-grid {
 
@@ -4676,12 +3753,6 @@ h3,
         font-size: 7px;
     }
 
-
-
-    /* ========================================================
-       CTA
-    ======================================================== */
-
     .proyectos-contacto {
 
         min-height: 370px;
@@ -4728,12 +3799,6 @@ h3,
 
         font-size: 9px;
     }
-
-
-
-    /* ========================================================
-       IMPACTO
-    ======================================================== */
 
     .proyectos-impacto {
 
@@ -4846,298 +3911,143 @@ h3,
 
 
 
-/* ============================================================
-   MOBILE PEQUEÑO
-============================================================ */
-
-@media (max-width: 400px) {
-
-
-    .proyectos-hero-content h1 {
-
-        font-size: 46px;
-    }
-
-
-    .proyectos-card {
-
-        grid-template-columns: 38% 62%;
-
-        min-height: 180px;
-    }
-
-
-    .proyectos-card-image {
-
-        min-height: 180px;
-    }
-
-
-    .proyectos-card-content h3 {
-
-        font-size: 15px;
-    }
-
-
-    .proyectos-card-content p {
-
-        font-size: 7px;
-    }
-
-
-    .proyectos-card-category {
-
-        font-size: 6.5px;
-    }
-
-}
-
-/* ============================================================
-   ============================================================
-   
-   PÁGINA CONTACTO
-   Clases exclusivas: contacto-*
-   
-   ============================================================
-   ============================================================ */
-
-
-/* ============================================================
-   CONTACTO PRINCIPAL
-============================================================ */
+/* pagina hablemos
+--------------- */
 
 .contacto-principal {
-
     background: #050708;
-
     padding-top: 145px;
-
     padding-bottom: 65px;
-
     min-height: 520px;
     height: 100vh;
     display: flex;
-    background-image: url(assets/contacto-hero.jpg) ;
+    align-items: center;
+    background-image: url("assets/contacto-hero.jpg");
     background-size: cover;
-    background-position: right;
+    background-position: right center;
 }
 
-
-
-
 .contacto-principal-container {
-
+    width: 1340px;
     display: grid;
-
     grid-template-columns: 1.05fr 1fr;
-
     align-items: center;
-
     gap: 150px;
 }
 
-
-
-/* ============================================================
-   INTRODUCCIÓN
-============================================================ */
-
 .contacto-introduccion {
-
     max-width: 610px;
 }
 
-
 .contacto-eyebrow {
-
     display: block;
-
     color: #00aabd;
-
     font-family: "Bebas Neue", sans-serif;
-
     font-size: 27px;
-
     line-height: 1;
-
     margin-bottom: 3px;
 }
 
-
 .contacto-introduccion h1 {
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     font-family: "Bebas Neue", sans-serif;
-
-    font-size: clamp(
-        70px,
-        7vw,
-        105px
-    );
-
+    font-size: clamp(70px, 7vw, 105px);
     line-height: 0.87;
-
     letter-spacing: 1px;
-
     margin-bottom: 25px;
 }
 
 .resaltproyect {
-     background: linear-gradient(
+    background: linear-gradient(
         to bottom,
         transparent 17%,
-        #029AA5 15%,
+        #029AA5 17%,
         #029AA5 75%,
         transparent 75%
     );
     background-position: center;
 }
 
-
-
 .contacto-introduccion p {
-
     max-width: 510px;
-
     font-size: 17px;
-
     line-height: 1.35;
-
     font-weight: 600;
 }
 
-
-
-/* ============================================================
-   FORMULARIO
-============================================================ */
-
 .contacto-formulario-contenedor {
-
+    width: 100%;
     border: 1px solid #00aabd;
-
     border-radius: 9px;
-
     padding: 22px 20px 17px;
-
-    background: rgba(
-        0,
-        15,
-        17,
-        0.55
-    );
+    background: rgba(0, 15, 17, 0.55);
+    box-sizing: border-box;
 }
 
-
 .contacto-formulario {
-
     display: grid;
-
-    grid-template-columns:
-        repeat(2, 1fr);
-
+    grid-template-columns: repeat(2, 1fr);
     gap: 13px 17px;
 }
 
-
 .contacto-formulario-campo {
-
     position: relative;
 }
 
-
 .contacto-formulario-campo label {
-
     position: absolute;
-
     width: 1px;
-
     height: 1px;
-
     padding: 0;
-
     margin: -1px;
-
     overflow: hidden;
-
-    clip: rect(
-        0,
-        0,
-        0,
-        0
-    );
-
+    clip: rect(0, 0, 0, 0);
     white-space: nowrap;
-
     border: 0;
 }
-
 
 .contacto-formulario-campo input,
 .contacto-formulario-campo select,
 .contacto-formulario-campo textarea {
-
     width: 100%;
-
+    box-sizing: border-box;
     border: 1px solid #00aabd;
-
     border-radius: 9px;
-
     background: #001416;
-
     color: #ffffff;
-
     outline: none;
-
     font-family: "Bebas Neue", sans-serif;
-
     transition:
         background 0.2s ease,
         border-color 0.2s ease;
 }
 
-
 .contacto-formulario-campo input,
 .contacto-formulario-campo select {
-
     height: 47px;
-
     padding: 0 15px;
-
     font-size: 11px;
-
     letter-spacing: 0.7px;
 }
 
-
 .contacto-formulario-campo textarea {
-
     min-height: 105px;
-
     resize: vertical;
-
     padding: 15px;
-
     font-family: "Montserrat", sans-serif;
-
     font-size: 10px;
-
     line-height: 1.4;
 }
 
-
 .contacto-formulario-campo input::placeholder,
 .contacto-formulario-campo textarea::placeholder {
-
     color: #758486;
-
     opacity: 1;
 }
 
-
 .contacto-formulario-campo select {
-
     color: #758486;
-
     appearance: none;
 
     background-image:
@@ -5155,45 +4065,28 @@ h3,
     background-repeat: no-repeat;
 }
 
-
 .contacto-formulario-campo input:focus,
 .contacto-formulario-campo select:focus,
 .contacto-formulario-campo textarea:focus {
-
     border-color: #ffffff;
-
     background: #001b1e;
 }
 
-
 .contacto-formulario-mensaje {
-
     grid-column: 1 / -1;
 }
 
-
 .contacto-formulario-boton {
-
     grid-column: 1 / -1;
-
     width: 100%;
-
     min-height: 43px;
-
     border: none;
-
     border-radius: 8px;
-
     background: #00aabd;
-
     color: #000000;
-
     font-family: "Bebas Neue", sans-serif;
-
     font-size: 22px;
-
     letter-spacing: 1px;
-
     cursor: pointer;
 
     transition:
@@ -5201,52 +4094,29 @@ h3,
         transform 0.2s ease;
 }
 
-
 .contacto-formulario-boton:hover {
-
     background: #ffffff;
-
     transform: translateY(-1px);
 }
 
-
 .contacto-formulario-seguridad {
-
     grid-column: 1 / -1;
-
     color: #657174;
-
     font-size: 9px;
-
     margin-top: -3px;
 }
 
-
-
-/* ============================================================
-   UBICACIÓN
-============================================================ */
-
 .contacto-ubicacion {
-
     position: relative;
-
     min-height: 380px;
-
     display: flex;
-
     align-items: center;
-
     overflow: hidden;
 }
 
-
 .contacto-ubicacion-fondo {
-
     position: absolute;
-
     inset: 0;
-
     z-index: 0;
 
     background-image:
@@ -5260,110 +4130,64 @@ h3,
         url("assets/contacto-mapa.jpg");
 
     background-size: cover;
-
     background-position: center;
 }
 
-
 .contacto-ubicacion-container {
-
     position: relative;
-
     z-index: 2;
-
     width: 100%;
-
     max-width: 1340px;
 }
 
-
 .contacto-ubicacion-contenido {
-
     max-width: 480px;
-
     padding-left: 10px;
 }
 
-
 .contacto-ubicacion-eyebrow {
-
     display: block;
-
     color: #00aabd;
-
     font-family: "Bebas Neue", sans-serif;
-
     font-size: 18px;
-
     letter-spacing: 1px;
 }
 
-
 .contacto-ubicacion-contenido h2 {
-
     font-family: "Bebas Neue", sans-serif;
-
     font-size: 55px;
-
     line-height: 0.88;
-
     margin-bottom: 23px;
 }
 
-
 .contacto-ubicacion-contenido h2 strong {
-
     color: #00aabd;
-
     font-weight: 400;
 }
 
-
 .contacto-ubicacion-contenido p {
-
     max-width: 420px;
-
     font-size: 16px;
-
     line-height: 1.4;
-
     font-weight: 600;
-
     margin-bottom: 22px;
 }
 
-
 .contacto-maps-button {
-
     min-width: 325px;
 }
 
-
-
-/* ============================================================
-   CTA
-============================================================ */
-
 .contacto-cta {
-
     position: relative;
-
     min-height: 270px;
-
     display: flex;
-
     align-items: center;
-
     overflow: hidden;
 }
 
-
 .contacto-cta-fondo {
-
     position: absolute;
-
     inset: 0;
-
     z-index: 0;
 
     background-image:
@@ -5375,252 +4199,160 @@ h3,
         url("assets/contacto-cta.jpg");
 
     background-size: cover;
-
     background-position: center;
 }
 
-
 .contacto-cta-container {
-
     position: relative;
-
     z-index: 2;
-
     width: 100%;
 
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     align-items: center;
 
     gap: 60px;
-
     max-width: 1340px;
 }
 
-
 .contacto-cta-frase h2 {
-
     font-family: "Bebas Neue", sans-serif;
-
     font-size: 48px;
-
     line-height: 0.87;
 }
 
-
 .contacto-cta-frase h2 strong {
-
     display: block;
-
     color: #00aabd;
-
     font-weight: 400;
 }
 
-
 .contacto-cta-contenido {
-
     max-width: 470px;
 }
 
-
 .contacto-cta-contenido p {
-
     font-size: 17px;
-
     line-height: 1.35;
-
     font-weight: 600;
-
     margin-bottom: 20px;
 }
 
-
-
-/* ============================================================
-   TABLET
-============================================================ */
-
-@media (max-width: 1050px) {
-
-
-    .contacto-principal-container {
-
-        grid-template-columns:
-            1fr 1fr;
-
-        gap: 35px;
-    }
-
-
-    .contacto-introduccion h1 {
-
-        font-size: 75px;
-    }
-
-
-    .contacto-introduccion p {
-
-        font-size: 14px;
-    }
-
-
-    .contacto-formulario-contenedor {
-
-        padding: 17px 15px 13px;
-    }
-
-
-    .contacto-ubicacion-contenido h2 {
-
-        font-size: 48px;
-    }
-
-
-    .contacto-cta-container {
-
-        gap: 35px;
-    }
-
-}
-
-
-
-/* ============================================================
-   TABLET PEQUEÑA
-============================================================ */
-
-@media (max-width: 800px) {
-
-
-    .contacto-principal {
-
-        padding-top: 120px;
-    }
-
-
-    .contacto-principal-container {
-
-        grid-template-columns: 1fr;
-
-        gap: 45px;
-    }
-
-
-    .contacto-introduccion {
-
-        max-width: 600px;
-    }
-
-
-    .contacto-formulario-contenedor {
-
-        max-width: 650px;
-
-        width: 100%;
-
-        margin: 0 auto;
-    }
-
-
-    .contacto-cta-container {
-
-        grid-template-columns: 1fr;
-    }
-
-
-    .contacto-cta-frase h2 {
-
-        font-size: 43px;
-    }
-
-}
-
-
-
-/* ============================================================
-   MOBILE
-============================================================ */
-
 @media (max-width: 600px) {
 
+    .site-header {
+        height: 64px;
+    }
 
-    /* ========================================================
-       CONTACTO PRINCIPAL
-    ======================================================== */
+    .site-logo {
+        width: 110px;
+    }
+
+    .main-navigation {
+        position: fixed;
+        top: 64px;
+        left: 0;
+
+        width: 100%;
+        height: calc(100vh - 64px);
+
+        background: #050708;
+
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+
+        padding: 45px 25px;
+        box-sizing: border-box;
+    }
+
+    .main-navigation.is-open {
+        transform: translateX(0);
+    }
+
+    .navigation-list {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+        font-size: 23px;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
 
     .contacto-principal {
+        background-color: #008d9e;
 
         padding-top: 100px;
-
         padding-bottom: 45px;
-    }
+        padding-left: 15px;
+        padding-right: 15px;
 
+        min-height: auto;
+        height: auto;
+
+        align-items: flex-start;
+
+
+    }
 
     .contacto-principal-container {
+        width: 100%;
 
         gap: 30px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
 
-
     .contacto-eyebrow {
-
         font-size: 19px;
     }
 
+    .contacto-introduccion {
+        width: 100%;
+        max-width: 100%;
+    }
 
     .contacto-introduccion h1 {
+        width: 100%;
+        max-width: 100%;
 
         font-size: 50px;
-
         line-height: 0.88;
 
         margin-bottom: 17px;
     }
 
-
     .contacto-introduccion h1 span {
-
         padding: 0 4px;
     }
 
-
     .contacto-introduccion p {
-
         max-width: 330px;
-
         font-size: 11px;
-
         line-height: 1.45;
     }
 
-
-
-    /* ========================================================
-       FORMULARIO
-    ======================================================== */
-
     .contacto-formulario-contenedor {
+        width: 100%;
+        max-width: 100%;
 
         padding: 13px 11px 10px;
 
         border-radius: 8px;
+        box-sizing: border-box;
     }
 
-
     .contacto-formulario {
-
         grid-template-columns: 1fr;
-
         gap: 10px;
     }
 
-
     .contacto-formulario-campo input,
     .contacto-formulario-campo select {
-
         height: 42px;
 
         font-size: 9px;
@@ -5630,9 +4362,7 @@ h3,
         border-radius: 8px;
     }
 
-
     .contacto-formulario-campo textarea {
-
         min-height: 105px;
 
         font-size: 9px;
@@ -5642,15 +4372,11 @@ h3,
         border-radius: 8px;
     }
 
-
     .contacto-formulario-mensaje {
-
         grid-column: auto;
     }
 
-
     .contacto-formulario-boton {
-
         grid-column: auto;
 
         min-height: 39px;
@@ -5658,28 +4384,17 @@ h3,
         font-size: 18px;
     }
 
-
     .contacto-formulario-seguridad {
-
         grid-column: auto;
 
         font-size: 7px;
     }
 
-
-
-    /* ========================================================
-       UBICACIÓN
-    ======================================================== */
-
     .contacto-ubicacion {
-
         min-height: 450px;
     }
 
-
     .contacto-ubicacion-fondo {
-
         background-image:
             linear-gradient(
                 90deg,
@@ -5691,165 +4406,107 @@ h3,
         background-position: 60% center;
     }
 
+    .contacto-ubicacion-container {
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
 
     .contacto-ubicacion-contenido {
-
         padding-left: 0;
-
         max-width: 330px;
     }
 
-
     .contacto-ubicacion-eyebrow {
-
         font-size: 16px;
     }
 
-
     .contacto-ubicacion-contenido h2 {
-
         font-size: 42px;
-
         line-height: 0.88;
-
         margin-bottom: 18px;
     }
 
-
     .contacto-ubicacion-contenido p {
-
         max-width: 300px;
 
         font-size: 10px;
-
         line-height: 1.45;
 
         margin-bottom: 20px;
     }
 
-
     .contacto-maps-button {
-
         min-width: 0;
 
         width: 100%;
-
         max-width: 300px;
 
         font-size: 9px;
     }
 
-
-
-    /* ========================================================
-       CTA
-    ======================================================== */
-
     .contacto-cta {
-
         min-height: 330px;
 
-        padding: 50px 0;
+        padding: 50px 15px;
+
+        box-sizing: border-box;
     }
 
-
     .contacto-cta-fondo {
-
         background-position: center;
     }
 
-
     .contacto-cta-container {
+        width: 100%;
 
         gap: 30px;
     }
 
-
     .contacto-cta-frase h2 {
-
         font-size: 38px;
-
         line-height: 0.88;
     }
 
-
     .contacto-cta-contenido {
-
         max-width: 320px;
     }
 
-
     .contacto-cta-contenido p {
-
         font-size: 10px;
-
         line-height: 1.45;
-
         margin-bottom: 17px;
     }
 
-
     .contacto-cta-contenido .button {
-
         font-size: 9px;
     }
-
 }
 
-
-
-/* ============================================================
-   MOBILE PEQUEÑO
-============================================================ */
-
-@media (max-width: 400px) {
-
-
-    .contacto-introduccion h1 {
-
-        font-size: 45px;
-    }
-
-
-    .contacto-ubicacion-contenido h2 {
-
-        font-size: 38px;
-    }
-
-
-    .contacto-cta-frase h2 {
-
-        font-size: 34px;
-    }
-
-}
-
-/* =========================================================
-   SOBRE NOSOTROS
-========================================================= */
-
-
-/* =========================================================
-   HERO
-========================================================= */
+/* 
+sobre nosotros
+-------------- */
 
 .sobre-hero {
     position: relative;
+    
     height: 100vh;
 
     display: flex;
+   
     align-items: center;
 
     background-image: url("assets/sobre-nosotros-hero.jpg");
+   
     background-size: cover;
+   
     background-position: center;
 
     overflow: hidden;
 }
 
-
 .sobre-hero-overlay {
     position: absolute;
+   
     inset: 0;
 
     background:
@@ -5862,18 +4519,17 @@ h3,
         );
 }
 
-
 .sobre-hero-container {
     position: relative;
+   
     z-index: 2;
 }
 
-
 .sobre-hero-content {
     max-width: 570px;
+  
     padding: 120px 0 80px;
 }
-
 
 .sobre-eyebrow,
 .sobre-section-label {
@@ -5884,10 +4540,11 @@ h3,
     color: #00aabd;
 
     font-family: 'Bebas Neue', sans-serif;
+  
     font-size: 25px;
+   
     letter-spacing: 1px;
 }
-
 
 .sobre-hero h1 {
     margin: 0 0 25px;
@@ -5895,11 +4552,13 @@ h3,
     color: #ffffff;
 
     font-family: 'Bebas Neue', sans-serif;
+   
     font-size: clamp(55px, 5.3vw, 82px);
+   
     font-weight: 400;
+   
     line-height: 0.91;
 }
-
 
 .sobre-hero h1 span {
     display: inline;
@@ -5914,9 +4573,9 @@ h3,
         #029AA5 75%,
         transparent 75%
     );
+  
     background-position: center;
 }
-
 
 .sobre-hero p {
     max-width: 540px;
@@ -5926,22 +4585,19 @@ h3,
     color: #ffffff;
 
     font-family: 'Montserrat', sans-serif;
+   
     font-size: 15px;
+   
     font-weight: 500;
+    
     line-height: 1.55;
 }
-
-
-/* =========================================================
-   NUESTRA ESENCIA
-========================================================= */
 
 .sobre-esencia {
     padding: 85px 0;
 
     background: #030608;
 }
-
 
 .sobre-esencia-grid {
     display: grid;
@@ -5953,19 +4609,17 @@ h3,
     gap: 70px;
 }
 
-
 .sobre-esencia-content {
     max-width: 570px;
 }
-
 
 .sobre-section-label {
     color: #ffffff;
 
     font-size: 17px;
+   
     letter-spacing: 3px;
 }
-
 
 .sobre-esencia h2 {
     margin: 0 0 18px;
@@ -5973,16 +4627,17 @@ h3,
     color: #ffffff;
 
     font-family: 'Bebas Neue', sans-serif;
+   
     font-size: clamp(48px, 4vw, 68px);
+  
     font-weight: 400;
+   
     line-height: 0.95;
 }
-
 
 .sobre-esencia h2 span {
     color: #00aabd;
 }
-
 
 .sobre-esencia p {
     margin: 0 0 12px;
@@ -5990,45 +4645,41 @@ h3,
     color: #ffffff;
 
     font-family: 'Montserrat', sans-serif;
+   
     font-size: 15px;
+   
     font-weight: 500;
+  
     line-height: 1.55;
 }
-
 
 .sobre-esencia .button {
     margin-top: 20px;
 }
 
-
 .sobre-esencia-image {
     width: 100%;
 }
-
 
 .sobre-esencia-image img {
     display: block;
 
     width: 100%;
+   
     height: 315px;
 
     object-fit: cover;
 
     border: 1px solid #00aabd;
+  
     border-radius: 7px;
 }
-
-
-/* =========================================================
-   VALORES
-========================================================= */
 
 .sobre-valores {
     padding: 85px 0;
 
     background: #ffffff;
 }
-
 
 .sobre-valores-container {
     display: grid;
@@ -6040,19 +4691,17 @@ h3,
     gap: 35px;
 }
 
-
 .sobre-valores-intro {
     display: flex;
 
     flex-direction: column;
+   
     justify-content: center;
 }
-
 
 .sobre-valores-intro .sobre-section-label {
     color: #111111;
 }
-
 
 .sobre-valores-intro h2 {
     margin: 0;
@@ -6060,23 +4709,23 @@ h3,
     color: #111111;
 
     font-family: 'Bebas Neue', sans-serif;
+   
     font-size: 48px;
+    
     font-weight: 400;
+   
     line-height: 0.95;
 }
-
 
 .sobre-valores-intro h2 span {
     color: #00aabd;
 }
-
 
 .sobre-valores-list {
     display: grid;
 
     grid-template-columns: repeat(4, 1fr);
 }
-
 
 .sobre-valor {
     min-height: 255px;
@@ -6086,24 +4735,24 @@ h3,
     border-left: 1px solid rgba(0, 170, 189, 0.55);
 }
 
-
 .sobre-valor-icon {
     width: 58px;
+   
     height: 58px;
 
     margin-bottom: 20px;
 
     display: flex;
+    
     align-items: center;
+   
     justify-content: center;
 
     color: #00aabd;
 
     font-size: 40px;
 
-   
 }
-
 
 .sobre-valor h3 {
     margin: 0 0 10px;
@@ -6111,8 +4760,11 @@ h3,
     color: #111111;
 
     font-family: 'Bebas Neue', sans-serif;
+    
     font-size: 25px;
+    
     font-weight: 400;
+    
     letter-spacing: 1px;
 }
 
@@ -6123,41 +4775,18 @@ h3,
     color: #202020;
 
     font-family: 'Montserrat', sans-serif;
+   
     font-size: 13px;
+   
     font-weight: 600;
+   
     line-height: 1.5;
 }
 
 
-/* =========================================================
-   RESPONSIVE
-========================================================= */
-
-@media (max-width: 1050px) {
-
-    .sobre-hero h1 {
-        font-size: 65px;
-    }
 
 
-    .sobre-esencia-grid {
-        gap: 40px;
-    }
-
-
-    .sobre-valores-container {
-        grid-template-columns: 160px 1fr;
-    }
-
-
-    .sobre-valor {
-        padding: 30px 20px;
-    }
-
-}
-
-
-@media (max-width: 800px) {
+@media (max-width: 600px) {
 
     /* HERO */
 
@@ -6189,8 +4818,6 @@ h3,
     }
 
 
-    /* ESENCIA */
-
     .sobre-esencia {
         padding: 65px 0;
     }
@@ -6210,8 +4837,6 @@ h3,
         height: 360px;
     }
 
-
-    /* VALORES */
 
     .sobre-valores {
         padding: 65px 0;
@@ -6236,12 +4861,7 @@ h3,
     .sobre-valor {
         min-height: 230px;
     }
-
-}
-
-
-@media (max-width: 600px) {
-
+    
     .sobre-hero {
         min-height: 650px;
     }
@@ -6292,26 +4912,6 @@ h3,
 }
 
 
-@media (max-width: 400px) {
-
-    .sobre-hero h1 {
-        font-size: 47px;
-    }
 
 
-    .sobre-eyebrow {
-        font-size: 21px;
-    }
 
-
-    .sobre-esencia h2 {
-        font-size: 45px;
-    }
-
-
-    .sobre-hero p,
-    .sobre-esencia p {
-        font-size: 13px;
-    }
-
-}

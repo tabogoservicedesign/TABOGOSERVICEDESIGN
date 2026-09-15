@@ -17,9 +17,6 @@
 
     <title>Contacto | TABOGO</title>
 
-
-    <!-- FUENTES -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link
@@ -33,9 +30,6 @@
         rel="stylesheet"
     >
 
-
-    <!-- CSS -->
-
     <link
         rel="stylesheet"
         href="styles.css"
@@ -47,21 +41,15 @@
 <body>
 
 
-    <!-- =====================================================
-         HEADER
-    ====================================================== -->
+    <!-- header -->
 
     <header class="site-header">
 
-        <div class="container header-container">
-
-
-            <!-- LOGO -->
+        <article class="container header-container">
 
             <a
                 href="index.html"
                 class="site-logo"
-                aria-label="TABOGO - Inicio"
             >
 
                 <img
@@ -71,12 +59,8 @@
 
             </a>
 
-
-            <!-- NAVEGACIÓN -->
-
             <nav
                 class="main-navigation"
-                aria-label="Navegación principal"
             >
 
                 <ul class="navigation-list">
@@ -124,9 +108,6 @@
 
             </nav>
 
-
-            <!-- MENÚ MÓVIL -->
-
             <button
                 class="menu-toggle"
                 type="button"
@@ -141,34 +122,22 @@
             </button>
 
 
-        </div>
+        </article>
 
     </header>
 
-
-
-    <!-- =====================================================
-         MAIN
-    ====================================================== -->
-
     <main>
 
+        <!-- hero -->
 
-        <!-- =================================================
-             CONTACTO PRINCIPAL
-        ================================================== -->
+        <section class="contacto-principal">
 
-        <section
-            class="contacto-principal"
-        >
-
-            <div class="container contacto-principal-container">
+            <article class="container contacto-principal-container">
 
 
                 <!-- INFORMACIÓN -->
 
                 <article class="contacto-introduccion">
-
 
                     <span class="contacto-eyebrow">
                         ESTAMOS EN CONTACTO
@@ -176,33 +145,24 @@
 
 
                     <h1>
-
                         HABLEMOS DE TU
                         <br>
-
-                        <span class="proximo">PRÓXIMO <span class="resaltproyect">PROYECTO.</span></span>
-                        
-
+                        PRÓXIMO
+                        <span class="resaltproyect">
+                            PROYECTO.
+                        </span>
                     </h1>
 
 
                     <p>
-
                         Cuéntanos tu idea, proyecto o necesidad.
                         Estamos listos para escucharte y ayudarte
                         a convertirla en una solución real.
-
                     </p>
-
 
                 </article>
 
-
-
-                <!-- FORMULARIO -->
-
                 <article class="contacto-formulario-contenedor">
-
 
                     <form
                         class="contacto-formulario"
@@ -210,10 +170,7 @@
                         method="POST"
                     >
 
-
-                        <!-- NOMBRE -->
-
-                        <div class="contacto-formulario-campo">
+                        <article class="contacto-formulario-campo">
 
                             <label for="contacto-nombre">
                                 NOMBRE COMPLETO *
@@ -228,13 +185,9 @@
                                 required
                             >
 
-                        </div>
+                        </article>
 
-
-
-                        <!-- EMAIL -->
-
-                        <div class="contacto-formulario-campo">
+                        <article class="contacto-formulario-campo">
 
                             <label for="contacto-email">
                                 CORREO ELECTRÓNICO *
@@ -249,13 +202,9 @@
                                 required
                             >
 
-                        </div>
+                        </article>
 
-
-
-                        <!-- TELÉFONO -->
-
-                        <div class="contacto-formulario-campo">
+                        <article class="contacto-formulario-campo">
 
                             <label for="contacto-telefono">
                                 TELÉFONO / WHATSAPP
@@ -269,13 +218,9 @@
                                 autocomplete="tel"
                             >
 
-                        </div>
+                        </article>
 
-
-
-                        <!-- TIPO DE PROYECTO -->
-
-                        <div class="contacto-formulario-campo">
+                        <article class="contacto-formulario-campo">
 
                             <label for="contacto-tipo">
                                 TIPO DE PROYECTO *
@@ -287,7 +232,11 @@
                                 required
                             >
 
-                                <option value="" selected disabled>
+                                <option
+                                    value=""
+                                    selected
+                                    disabled
+                                >
                                     TIPO DE PROYECTO *
                                 </option>
 
@@ -317,13 +266,9 @@
 
                             </select>
 
-                        </div>
+                        </article>
 
-
-
-                        <!-- MENSAJE -->
-
-                        <div
+                        <article
                             class="contacto-formulario-campo contacto-formulario-mensaje"
                         >
 
@@ -338,11 +283,7 @@
                                 required
                             ></textarea>
 
-                        </div>
-
-
-
-                        <!-- BOTÓN -->
+                        </article>
 
                         <button
                             type="submit"
@@ -351,67 +292,50 @@
                             ENVIAR MENSAJE
                         </button>
 
-
                         <small class="contacto-formulario-seguridad">
-
                             🔒 Tus datos están seguros con nosotros.
-
                         </small>
 
 
                     </form>
 
-
                 </article>
 
-
-            </div>
+            </article>
 
         </section>
 
 
-
-        <!-- =================================================
-             UBICACIÓN
-        ================================================== -->
-
+        <!-- nuestra ubicacion -->
         <section
             class="contacto-ubicacion"
-            aria-labelledby="contacto-ubicacion-title"
         >
 
-            <div class="contacto-ubicacion-fondo"></div>
+            <article class="contacto-ubicacion-fondo"></article>
 
 
-            <div class="container contacto-ubicacion-container">
-
+            <article class="container contacto-ubicacion-container">
 
                 <article class="contacto-ubicacion-contenido">
-
 
                     <span class="contacto-ubicacion-eyebrow">
                         NUESTRA UBICACIÓN
                     </span>
 
 
-                    <h2 id="contacto-ubicacion-title">
-
+                    <h2>
                         TE ESPERAMOS
                         <br>
-
                         <strong>
                             EN BOGOTÁ.
                         </strong>
-
                     </h2>
 
 
                     <p>
-
                         Contamos con un espacio creativo donde
                         podremos reunirnos, conocernos y empezar
                         a construir grandes ideas.
-
                     </p>
 
 
@@ -424,41 +348,33 @@
                         VER EN GOOGLE MAPS →
                     </a>
 
-
                 </article>
 
-
-            </div>
+            </article>
 
         </section>
 
 
-
-        <!-- =================================================
-             CTA FINAL
-        ================================================== -->
+        <!-- cta -->
 
         <section
             class="contacto-cta"
-            aria-labelledby="contacto-cta-title"
         >
 
-            <div class="contacto-cta-fondo"></div>
+            <article class="contacto-cta-fondo"></article>
 
 
-            <div class="container contacto-cta-container">
-
-
-                <!-- FRASE -->
+            <article class="container contacto-cta-container">
 
                 <article class="contacto-cta-frase">
 
-                    <h2 id="contacto-cta-title">
+                    <h2>
 
                         TU IDEA.
                         <br>
 
                         NUESTRO
+
                         <strong>
                             COMPROMISO.
                         </strong>
@@ -467,34 +383,25 @@
 
                 </article>
 
-
-
-                <!-- INFORMACIÓN -->
-
                 <article class="contacto-cta-contenido">
 
-
                     <p>
-
                         Hablemos hoy mismo y descubre cómo
                         podemos convertir tu visión en un
                         proyecto real, creativo y con impacto.
-
                     </p>
 
 
                     <a
-                        href="#contacto-title"
+                        href="#contacto-principal"
                         class="button button-primary"
                     >
                         HABLEMOS DE TU PROYECTO →
                     </a>
 
-
                 </article>
 
-
-            </div>
+            </article>
 
         </section>
 
@@ -502,20 +409,14 @@
     </main>
 
 
-
-    <!-- =====================================================
-         FOOTER
-    ====================================================== -->
+    <!-- footer -->
 
     <footer class="site-footer">
 
-        <div class="container">
+        <article class="container">
 
 
-            <div class="footer-main">
-
-
-                <!-- MARCA -->
+            <article class="footer-main">
 
                 <section class="footer-brand">
 
@@ -534,10 +435,6 @@
                     </p>
 
                 </section>
-
-
-
-                <!-- NAVEGACIÓN -->
 
                 <nav
                     class="footer-navigation"
@@ -569,13 +466,13 @@
                         </li>
 
                         <li>
-                            <a href="index.html#nosotros">
+                            <a href="sobrenosotros.html">
                                 SOBRE NOSOTROS
                             </a>
                         </li>
 
                         <li>
-                            <a href="contacto.html">
+                            <a href="hablemos.html">
                                 CONTACTO
                             </a>
                         </li>
@@ -583,10 +480,6 @@
                     </ul>
 
                 </nav>
-
-
-
-                <!-- SERVICIOS -->
 
                 <section class="footer-services">
 
@@ -620,10 +513,6 @@
 
                 </section>
 
-
-
-                <!-- CONTACTO -->
-
                 <address class="footer-contact">
 
                     <h2>
@@ -645,39 +534,40 @@
                 </address>
 
 
-            </div>
+            </article>
 
-
-
-            <!-- FOOTER BOTTOM -->
-
-            <div class="footer-bottom">
+            <article class="footer-bottom">
 
 
                 <nav
                     class="social-navigation"
-                    aria-label="Redes sociales"
                 >
 
                     <a
-                        href="#"
-                        aria-label="Instagram"
+                        href="https://www.instagram.com/tabogo.servicedesign/"
                     >
-                        <img src="assets/Instagram.png" alt="">
+                        <img
+                            src="assets/Instagram.png"
+                            alt=""
+                        >
                     </a>
 
                     <a
-                        href="#"
-                        aria-label="Behance"
+                        href="https://www.behance.net/juliosuarez12"
                     >
-                        <img src="assets/Behance.png" alt="">
+                        <img
+                            src="assets/Behance.png"
+                            alt=""
+                        >
                     </a>
 
                     <a
-                        href="#"
-                        aria-label="YouTube"
+                        href="https://www.youtube.com/@tabogo.servicedesign"
                     >
-                        <img src="assets/YouTube.png" alt="">
+                        <img
+                            src="assets/YouTube.png"
+                            alt=""
+                        >
                     </a>
 
                 </nav>
@@ -688,19 +578,15 @@
                 </p>
 
 
-            </div>
+            </article>
 
 
-        </div>
+        </article>
 
     </footer>
 
 
-
-    <!-- =====================================================
-         MENÚ MÓVIL
-    ====================================================== -->
-
+    <!-- javascript -->
     <script>
 
         const contactoMenuButton =
