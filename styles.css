@@ -3928,11 +3928,15 @@ h3,
 }
 
 .contacto-principal-container {
-    width: 1340px;
-    display: grid;
-    grid-template-columns: 1.05fr 1fr;
+     position: relative;
+
+    z-index: 2;
+
+    min-height: 514px;
+
+    display: flex;
+
     align-items: center;
-    gap: 150px;
 }
 
 .contacto-introduccion {
@@ -4134,10 +4138,15 @@ h3,
 }
 
 .contacto-ubicacion-container {
-    position: relative;
+      position: relative;
+
     z-index: 2;
-    width: 100%;
-    max-width: 1340px;
+
+    min-height: 514px;
+
+    display: flex;
+
+    align-items: center;
 }
 
 .contacto-ubicacion-contenido {
@@ -4205,7 +4214,7 @@ h3,
 .contacto-cta-container {
     position: relative;
     z-index: 2;
-    width: 100%;
+    
 
     display: grid;
     grid-template-columns: 1fr 1fr;
