@@ -239,8 +239,8 @@ h3,
         linear-gradient(
             90deg,
             rgba(0, 0, 0, 0.96) 0%,
-            rgba(0, 0, 0, 0.84) 38%,
-            rgba(0, 0, 0, 0.3) 100%
+            rgba(0, 0, 0, 0.84) 0%,
+            rgba(0, 0, 0, 0.3) 0%
         ),
         url(assets/hero.jpg);
 
@@ -2408,7 +2408,7 @@ h3,
             ),
             url("assets/servicios-hero.jpg");
 
-        background-position: 65% center;
+        background-position: 55% center;
     }
 
 
@@ -3569,7 +3569,7 @@ h3,
             ),
             url("assets/proyectos-hero.jpg");
 
-        background-position: 67% center;
+        background-position: 50% center;
     }
 
 
@@ -4794,6 +4794,7 @@ sobre nosotros
         min-height: 600px;
 
         background-position: 62% center;
+        background-position: 80% center;
     }
 
 
